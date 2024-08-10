@@ -1,0 +1,267 @@
+INFO 2024-08-10 05:33:45,289 autoreload 11413 140475484384320 Watching for file changes with StatReloader
+INFO 2024-08-10 05:34:16,850 autoreload 11413 140475484384320 /workspace/boutique_ado_v1/products/views.py changed, reloading.
+INFO 2024-08-10 05:34:17,167 autoreload 11447 139734485298240 Watching for file changes with StatReloader
+INFO 2024-08-10 05:34:38,074 autoreload 11581 140240414452800 Watching for file changes with StatReloader
+INFO 2024-08-10 05:34:47,090 basehttp 11581 140240358471232 "GET / HTTP/1.1" 200 10962
+INFO 2024-08-10 05:34:47,555 basehttp 11581 140240278779456 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2024-08-10 05:34:51,773 views 11581 140240270386752 all_products view called
+INFO 2024-08-10 05:34:51,869 basehttp 11581 140240270386752 "GET /products/ HTTP/1.1" 200 392536
+INFO 2024-08-10 09:55:19,551 autoreload 2167 140514474003520 Watching for file changes with StatReloader
+INFO 2024-08-10 09:55:25,130 basehttp 2167 140514351380032 "GET / HTTP/1.1" 200 10962
+INFO 2024-08-10 09:55:25,446 basehttp 2167 140514342987328 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2024-08-10 09:55:29,352 views 2167 140514333546048 all_products view called
+INFO 2024-08-10 09:55:29,353 views 2167 140514333546048 All categories: [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]
+INFO 2024-08-10 09:55:29,354 views 2167 140514333546048 Categories being sent to template: <QuerySet [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]>
+INFO 2024-08-10 09:55:29,355 views 2167 140514333546048 Context being sent to template: {'products': <QuerySet [<Product: Arizona Original Bootcut Jeans>, <Product: Liz Claiborne Audra Classic Fit Straight Leg Pants>, <Product: Royal Velvet Matte Satin Square 3-pc. Coverlet Set>, <Product: Gibson Infinite Glaze 16-pc. Dinnerware Set>, <Product: Simply Calphalon Enameled Cast Iron Panini Pan>, <Product: The Foundry Supply Co. Solid Pocket TeeBig & Tall>, <Product: Liz Claiborne Classic Sophie Secretly Slender Trouser Leg Pants - Plus>, <Product: Rachael Ray Ceramic Olive Oil Dispenser>, <Product: Protech Performance Sheet Set>, <Product: Reflections Set of 4 Microfiber Napkins>, <Product: Chef Designs Black-Trimmed Cook ShirtBig & Tall>, <Product: Nike 3-pk. Performance Crew Socks - Boys>, <Product: Champion Jersey Tee>, <Product: Stafford 4-pk. Blended Cotton A-Shirts>, <Product: Stafford 4-pk. Heavyweight Crewneck T-ShirtsBig & Tall>, <Product: Levi's 529 Curvy Bootcut Jeans>, <Product: Worthington Essential Short-Sleeve Tee - Plus>, <Product: Marvel Comics Avengers Hulk Pillow Buddy>, <Product: Marvel Spiderman Pillow Buddy>, <Product: JCPenney Home Oven Mitt>, '...(remaining elements truncated)...']>, 'search_term': None, 'current_categories': <QuerySet [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]>, 'current_sorting': 'None_None'}
+INFO 2024-08-10 09:55:29,452 basehttp 2167 140514333546048 "GET /products/ HTTP/1.1" 200 394844
+INFO 2024-08-10 09:56:11,136 views 2167 140514325153344 all_products view called
+INFO 2024-08-10 09:56:11,137 views 2167 140514325153344 All categories: [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]
+INFO 2024-08-10 09:56:11,139 views 2167 140514325153344 Categories being sent to template: <QuerySet [<Category: clearance>]>
+INFO 2024-08-10 09:56:11,140 views 2167 140514325153344 Context being sent to template: {'products': <QuerySet [<Product: Armitron Now Womens Crystal-Accent White Leather Strap Watch>, <Product: Home Expressions Microfiber Twin XL Sheet Set>, <Product: Claiborne Short-Sleeve Woven Shirt>, <Product: Worthington Sateen Cropped Pants - Petite>, <Product: Carter's 4-pc. Take Me Home Set - Baby Boys preemie-6m>, <Product: Arizona Graphic Tee - Boys 8-20 and Husky>, <Product: Armitron Now Womens Crystal-Accent White Leather Strap Watch>, <Product: Nike Air Sickness Graphic Tee>, <Product: Levi's Houlihan Short-Sleeve Logo Tee>, <Product: Disney Collection Frozen Elsa Graphic Tee - Girls 2-12>, <Product: Sunbeam Comfy Toes Microplush Heated Throw>, <Product: Stafford Travel Brown Check Suit Jacket - Classic Fit>, <Product: Stafford Flannel Pajama Set - Big & Tall>, <Product: Vieste Green Stone Statement Necklace>, <Product: Bonnie Jean Plaid Dress and Cardigan - Girls Plus>, <Product: Arizona Quilted Sweatshirt - Toddler Girls 2t-5t>, <Product: a.n.a Long-Sleeve Colorblock Sweater>, <Product: Stafford Travel Short-Sleeve Easy-Care Broadcloth Dress Shirt - Big & Tall>, <Product: Arizona Raglan Henley Tee - Boys 8-20>, <Product: Brooklyn Xpress Fleece Jogger Pants>, '...(remaining elements truncated)...']>, 'search_term': None, 'current_categories': <QuerySet [<Category: clearance>]>, 'current_sorting': 'None_None'}
+INFO 2024-08-10 09:56:11,155 basehttp 2167 140514325153344 "GET /products/?category=clearance HTTP/1.1" 200 60105
+INFO 2024-08-10 10:00:30,314 views 2167 140514316760640 all_products view called
+INFO 2024-08-10 10:00:30,315 views 2167 140514316760640 All categories: [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]
+INFO 2024-08-10 10:00:30,317 views 2167 140514316760640 Categories being sent to template: <QuerySet [<Category: clearance>]>
+INFO 2024-08-10 10:00:30,318 views 2167 140514316760640 Context being sent to template: {'products': <QuerySet [<Product: Armitron Now Womens Crystal-Accent White Leather Strap Watch>, <Product: Home Expressions Microfiber Twin XL Sheet Set>, <Product: Claiborne Short-Sleeve Woven Shirt>, <Product: Worthington Sateen Cropped Pants - Petite>, <Product: Carter's 4-pc. Take Me Home Set - Baby Boys preemie-6m>, <Product: Arizona Graphic Tee - Boys 8-20 and Husky>, <Product: Armitron Now Womens Crystal-Accent White Leather Strap Watch>, <Product: Nike Air Sickness Graphic Tee>, <Product: Levi's Houlihan Short-Sleeve Logo Tee>, <Product: Disney Collection Frozen Elsa Graphic Tee - Girls 2-12>, <Product: Sunbeam Comfy Toes Microplush Heated Throw>, <Product: Stafford Travel Brown Check Suit Jacket - Classic Fit>, <Product: Stafford Flannel Pajama Set - Big & Tall>, <Product: Vieste Green Stone Statement Necklace>, <Product: Bonnie Jean Plaid Dress and Cardigan - Girls Plus>, <Product: Arizona Quilted Sweatshirt - Toddler Girls 2t-5t>, <Product: a.n.a Long-Sleeve Colorblock Sweater>, <Product: Stafford Travel Short-Sleeve Easy-Care Broadcloth Dress Shirt - Big & Tall>, <Product: Arizona Raglan Henley Tee - Boys 8-20>, <Product: Brooklyn Xpress Fleece Jogger Pants>, '...(remaining elements truncated)...']>, 'search_term': None, 'current_categories': <QuerySet [<Category: clearance>]>, 'current_sorting': 'None_None'}
+INFO 2024-08-10 10:00:30,335 basehttp 2167 140514316760640 "GET /products/?category=clearance HTTP/1.1" 200 60120
+INFO 2024-08-10 10:00:44,989 views 2167 140514308367936 all_products view called
+INFO 2024-08-10 10:00:44,990 views 2167 140514308367936 All categories: [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]
+INFO 2024-08-10 10:00:44,991 views 2167 140514308367936 Categories being sent to template: <QuerySet [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]>
+INFO 2024-08-10 10:00:44,992 views 2167 140514308367936 Context being sent to template: {'products': <QuerySet [<Product: Arizona Original Bootcut Jeans>, <Product: Liz Claiborne Audra Classic Fit Straight Leg Pants>, <Product: Royal Velvet Matte Satin Square 3-pc. Coverlet Set>, <Product: Gibson Infinite Glaze 16-pc. Dinnerware Set>, <Product: Simply Calphalon Enameled Cast Iron Panini Pan>, <Product: The Foundry Supply Co. Solid Pocket TeeBig & Tall>, <Product: Liz Claiborne Classic Sophie Secretly Slender Trouser Leg Pants - Plus>, <Product: Rachael Ray Ceramic Olive Oil Dispenser>, <Product: Protech Performance Sheet Set>, <Product: Reflections Set of 4 Microfiber Napkins>, <Product: Chef Designs Black-Trimmed Cook ShirtBig & Tall>, <Product: Nike 3-pk. Performance Crew Socks - Boys>, <Product: Champion Jersey Tee>, <Product: Stafford 4-pk. Blended Cotton A-Shirts>, <Product: Stafford 4-pk. Heavyweight Crewneck T-ShirtsBig & Tall>, <Product: Levi's 529 Curvy Bootcut Jeans>, <Product: Worthington Essential Short-Sleeve Tee - Plus>, <Product: Marvel Comics Avengers Hulk Pillow Buddy>, <Product: Marvel Spiderman Pillow Buddy>, <Product: JCPenney Home Oven Mitt>, '...(remaining elements truncated)...']>, 'search_term': None, 'current_categories': <QuerySet [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]>, 'current_sorting': 'None_None'}
+INFO 2024-08-10 10:00:45,087 basehttp 2167 140514308367936 "GET /products/ HTTP/1.1" 200 394979
+INFO 2024-08-10 10:03:07,196 views 2167 140514299975232 all_products view called
+INFO 2024-08-10 10:03:07,197 views 2167 140514299975232 All categories: [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]
+INFO 2024-08-10 10:03:07,199 views 2167 140514299975232 Categories being sent to template: <QuerySet [<Category: activewear>, <Category: essentials>]>
+INFO 2024-08-10 10:03:07,200 views 2167 140514299975232 Context being sent to template: {'products': <QuerySet [<Product: Nike 3-pk. Performance Crew Socks - Boys>, <Product: Stafford 4-pk. Blended Cotton A-Shirts>, <Product: Stafford 4-pk. Heavyweight Crewneck T-ShirtsBig & Tall>, <Product: Worthington Essential Short-Sleeve Tee - Plus>, <Product: Stafford Year-Round Pleated PantsBig & Tall>, <Product: The Foundry Supply Co. Quick-Dri PoloBig & Tall>, <Product: Jacques Mort 2-pk. Short-Sleeve Leotard - Girls>, <Product: Stylus Short-Sleeve V-Neck Slub Tee - Plus>, <Product: Worthington 3/4-Sleeve Button-Front Oxford Shirt - Petite>, <Product: Nike Therma-FIT Pullover Hoodie - Boys 8-20>, <Product: Made For Life Mesh Jacket - Plus>, <Product: Made For Life Long-Sleeve Flyaway Cardigan>, <Product: St. John's Bay Short-Sleeve Polo Shirt - Plus>, <Product: Made For Life Polar Fleece Vest>, <Product: Liz Claiborne Long-Sleeve V-Neck Striped Tunic>, <Product: Xersion Colorblock Yoga Shorts - Girls 7-16 and Plus>, <Product: Xersion Short-Sleeve V-Neck Graphic Tee - Girls 7-16 and Plus>, <Product: St. John's Bay Short-Sleeve V-Neck T-Shirt>, <Product: Alfred Dunner Denim Capris>, <Product: Worthington Short-Sleeve Scoopneck T-Shirt - Tall>, '...(remaining elements truncated)...']>, 'search_term': None, 'current_categories': <QuerySet [<Category: activewear>, <Category: essentials>]>, 'current_sorting': 'None_None'}
+INFO 2024-08-10 10:03:07,219 basehttp 2167 140514299975232 "GET /products/?category=activewear,essentials,%20jeans,%20shirts HTTP/1.1" 200 75851
+INFO 2024-08-10 10:03:11,947 views 2167 140513814509120 all_products view called
+INFO 2024-08-10 10:03:11,948 views 2167 140513814509120 All categories: [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]
+INFO 2024-08-10 10:03:11,950 views 2167 140513814509120 Categories being sent to template: <QuerySet [<Category: essentials>]>
+INFO 2024-08-10 10:03:11,951 views 2167 140513814509120 Context being sent to template: {'products': <QuerySet [<Product: Stafford 4-pk. Blended Cotton A-Shirts>, <Product: Stafford 4-pk. Heavyweight Crewneck T-ShirtsBig & Tall>, <Product: Worthington Essential Short-Sleeve Tee - Plus>, <Product: Stafford Year-Round Pleated PantsBig & Tall>, <Product: The Foundry Supply Co. Quick-Dri PoloBig & Tall>, <Product: Stylus Short-Sleeve V-Neck Slub Tee - Plus>, <Product: Worthington 3/4-Sleeve Button-Front Oxford Shirt - Petite>, <Product: St. John's Bay Short-Sleeve Polo Shirt - Plus>, <Product: St. John's Bay Short-Sleeve V-Neck T-Shirt>, <Product: Alfred Dunner Denim Capris>, <Product: Worthington Short-Sleeve Scoopneck T-Shirt - Tall>, <Product: Arizona Racerback Tank - Juniors Plus>, <Product: St. John's Bay Long-Sleeve Camp Shirt>, <Product: Worthington 3/4-Sleeve Open-Front Cardigan Sweater>, <Product: Made For Life Short-Sleeve Print V-Neck Mesh T-Shirt - Tall>, <Product: Dockers Signature Classic-Fit Flat-Front Pants>, <Product: Stylus Long-Sleeve Back-Pleat Oversized Shirt- Petite>]>, 'search_term': None, 'current_categories': <QuerySet [<Category: essentials>]>, 'current_sorting': 'None_None'}
+INFO 2024-08-10 10:03:11,963 basehttp 2167 140513814509120 "GET /products/?category=essentials HTTP/1.1" 200 48930
+INFO 2024-08-10 10:03:15,890 views 2167 140513806116416 all_products view called
+INFO 2024-08-10 10:03:15,891 views 2167 140513806116416 All categories: [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]
+INFO 2024-08-10 10:03:15,893 views 2167 140513806116416 Categories being sent to template: <QuerySet [<Category: essentials>]>
+INFO 2024-08-10 10:03:15,894 views 2167 140513806116416 Context being sent to template: {'products': <QuerySet [<Product: Stafford 4-pk. Blended Cotton A-Shirts>, <Product: Stafford 4-pk. Heavyweight Crewneck T-ShirtsBig & Tall>, <Product: Worthington Essential Short-Sleeve Tee - Plus>, <Product: Stafford Year-Round Pleated PantsBig & Tall>, <Product: The Foundry Supply Co. Quick-Dri PoloBig & Tall>, <Product: Stylus Short-Sleeve V-Neck Slub Tee - Plus>, <Product: Worthington 3/4-Sleeve Button-Front Oxford Shirt - Petite>, <Product: St. John's Bay Short-Sleeve Polo Shirt - Plus>, <Product: St. John's Bay Short-Sleeve V-Neck T-Shirt>, <Product: Alfred Dunner Denim Capris>, <Product: Worthington Short-Sleeve Scoopneck T-Shirt - Tall>, <Product: Arizona Racerback Tank - Juniors Plus>, <Product: St. John's Bay Long-Sleeve Camp Shirt>, <Product: Worthington 3/4-Sleeve Open-Front Cardigan Sweater>, <Product: Made For Life Short-Sleeve Print V-Neck Mesh T-Shirt - Tall>, <Product: Dockers Signature Classic-Fit Flat-Front Pants>, <Product: Stylus Long-Sleeve Back-Pleat Oversized Shirt- Petite>]>, 'search_term': None, 'current_categories': <QuerySet [<Category: essentials>]>, 'current_sorting': 'None_None'}
+INFO 2024-08-10 10:03:15,906 basehttp 2167 140513806116416 "GET /products/?category=essentials HTTP/1.1" 200 48930
+INFO 2024-08-10 10:03:19,249 views 2167 140513797723712 all_products view called
+INFO 2024-08-10 10:03:19,250 views 2167 140513797723712 All categories: [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]
+INFO 2024-08-10 10:03:19,252 views 2167 140513797723712 Categories being sent to template: <QuerySet [<Category: activewear>]>
+INFO 2024-08-10 10:03:19,252 views 2167 140513797723712 Context being sent to template: {'products': <QuerySet [<Product: Nike 3-pk. Performance Crew Socks - Boys>, <Product: Jacques Mort 2-pk. Short-Sleeve Leotard - Girls>, <Product: Nike Therma-FIT Pullover Hoodie - Boys 8-20>, <Product: Made For Life Mesh Jacket - Plus>, <Product: Made For Life Long-Sleeve Flyaway Cardigan>, <Product: Made For Life Polar Fleece Vest>, <Product: Liz Claiborne Long-Sleeve V-Neck Striped Tunic>, <Product: Xersion Colorblock Yoga Shorts - Girls 7-16 and Plus>, <Product: Xersion Short-Sleeve V-Neck Graphic Tee - Girls 7-16 and Plus>, <Product: Champion Vapor Muscle Tank - Plus>, <Product: Xersion Mesh-Back Tank Top - Plus>, <Product: Made for Life Secretly Slender Capri Leggings - Plus>]>, 'search_term': None, 'current_categories': <QuerySet [<Category: activewear>]>, 'current_sorting': 'None_None'}
+INFO 2024-08-10 10:03:19,262 basehttp 2167 140513797723712 "GET /products/?category=activewear HTTP/1.1" 200 37942
+INFO 2024-08-10 10:03:27,960 views 2167 140513789331008 all_products view called
+INFO 2024-08-10 10:03:27,961 views 2167 140513789331008 All categories: [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]
+INFO 2024-08-10 10:03:27,963 views 2167 140513789331008 Categories being sent to template: <QuerySet [<Category: jeans>]>
+INFO 2024-08-10 10:03:27,964 views 2167 140513789331008 Context being sent to template: {'products': <QuerySet [<Product: Arizona Original Bootcut Jeans>, <Product: Levi's 529 Curvy Bootcut Jeans>, <Product: Arizona Super-Skinny Jeans>, <Product: Stylus Slim Straight-Leg Jeans - Plus>, <Product: Arizona Bootcut Jeans>, <Product: Love Indigo Wing Back Flap Pocket Jeans>, <Product: Love Indigo Embroidered Back Pocket Jeans>, <Product: Love Indigo Cross Back Flap Pocket Jeans>, <Product: Arizona Ankle-Zip Jeggings>, <Product: Vanilla Star Embellished Skinny Jeans - Girls 7-16 and Plus>, <Product: a.n.a Skinny Jeans>, <Product: a.n.a Bootcut Jeans>, <Product: a.n.a Jeggings - Plus>, <Product: Gloria Vanderbilt Amanda Jeans - Plus>, <Product: Stylus Flare Jeans>, <Product: Levi's 527 Bootcut Jeans - Boys 8-20, Slim and Husky>, <Product: Stylus Destructed Roll-Cuff Boyfriend Crop Jeans>, <Product: Arizona Cropped Jeans with Belt - Girls 7-16 and Plus>, <Product: Liz Claiborne City-Fit 5-Pocket Flared Cropped Jeans - Tall>, <Product: Arizona Flex Skinny Jeans>, '...(remaining elements truncated)...']>, 'search_term': None, 'current_categories': <QuerySet [<Category: jeans>]>, 'current_sorting': 'None_None'}
+INFO 2024-08-10 10:03:27,982 basehttp 2167 140513789331008 "GET /products/?category=jeans HTTP/1.1" 200 57229
+INFO 2024-08-10 10:03:33,139 views 2167 140513780938304 all_products view called
+INFO 2024-08-10 10:03:33,140 views 2167 140513780938304 All categories: [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]
+INFO 2024-08-10 10:03:33,142 views 2167 140513780938304 Categories being sent to template: <QuerySet [<Category: jeans>]>
+INFO 2024-08-10 10:03:33,143 views 2167 140513780938304 Context being sent to template: {'products': <QuerySet [<Product: Arizona Original Bootcut Jeans>, <Product: Levi's 529 Curvy Bootcut Jeans>, <Product: Arizona Super-Skinny Jeans>, <Product: Stylus Slim Straight-Leg Jeans - Plus>, <Product: Arizona Bootcut Jeans>, <Product: Love Indigo Wing Back Flap Pocket Jeans>, <Product: Love Indigo Embroidered Back Pocket Jeans>, <Product: Love Indigo Cross Back Flap Pocket Jeans>, <Product: Arizona Ankle-Zip Jeggings>, <Product: Vanilla Star Embellished Skinny Jeans - Girls 7-16 and Plus>, <Product: a.n.a Skinny Jeans>, <Product: a.n.a Bootcut Jeans>, <Product: a.n.a Jeggings - Plus>, <Product: Gloria Vanderbilt Amanda Jeans - Plus>, <Product: Stylus Flare Jeans>, <Product: Levi's 527 Bootcut Jeans - Boys 8-20, Slim and Husky>, <Product: Stylus Destructed Roll-Cuff Boyfriend Crop Jeans>, <Product: Arizona Cropped Jeans with Belt - Girls 7-16 and Plus>, <Product: Liz Claiborne City-Fit 5-Pocket Flared Cropped Jeans - Tall>, <Product: Arizona Flex Skinny Jeans>, '...(remaining elements truncated)...']>, 'search_term': None, 'current_categories': <QuerySet [<Category: jeans>]>, 'current_sorting': 'None_None'}
+INFO 2024-08-10 10:03:33,157 basehttp 2167 140513780938304 "GET /products/?category=jeans HTTP/1.1" 200 57229
+INFO 2024-08-10 10:03:35,588 views 2167 140513772545600 all_products view called
+INFO 2024-08-10 10:03:35,590 views 2167 140513772545600 All categories: [<Category: activewear>, <Category: bed_bath>, <Category: clearance>, <Category: deals>, <Category: essentials>, <Category: jeans>, <Category: kitchen_dining>, <Category: new_arrivals>, <Category: shirts>]
+INFO 2024-08-10 10:03:35,592 views 2167 140513772545600 Categories being sent to template: <QuerySet [<Category: activewear>, <Category: essentials>]>
+INFO 2024-08-10 10:03:35,593 views 2167 140513772545600 Context being sent to template: {'products': <QuerySet [<Product: Nike 3-pk. Performance Crew Socks - Boys>, <Product: Stafford 4-pk. Blended Cotton A-Shirts>, <Product: Stafford 4-pk. Heavyweight Crewneck T-ShirtsBig & Tall>, <Product: Worthington Essential Short-Sleeve Tee - Plus>, <Product: Stafford Year-Round Pleated PantsBig & Tall>, <Product: The Foundry Supply Co. Quick-Dri PoloBig & Tall>, <Product: Jacques Mort 2-pk. Short-Sleeve Leotard - Girls>, <Product: Stylus Short-Sleeve V-Neck Slub Tee - Plus>, <Product: Worthington 3/4-Sleeve Button-Front Oxford Shirt - Petite>, <Product: Nike Therma-FIT Pullover Hoodie - Boys 8-20>, <Product: Made For Life Mesh Jacket - Plus>, <Product: Made For Life Long-Sleeve Flyaway Cardigan>, <Product: St. John's Bay Short-Sleeve Polo Shirt - Plus>, <Product: Made For Life Polar Fleece Vest>, <Product: Liz Claiborne Long-Sleeve V-Neck Striped Tunic>, <Product: Xersion Colorblock Yoga Shorts - Girls 7-16 and Plus>, <Product: Xersion Short-Sleeve V-Neck Graphic Tee - Girls 7-16 and Plus>, <Product: St. John's Bay Short-Sleeve V-Neck T-Shirt>, <Product: Alfred Dunner Denim Capris>, <Product: Worthington Short-Sleeve Scoopneck T-Shirt - Tall>, '...(remaining elements truncated)...']>, 'search_term': None, 'current_categories': <QuerySet [<Category: activewear>, <Category: essentials>]>, 'current_sorting': 'None_None'}
+INFO 2024-08-10 10:03:35,612 basehttp 2167 140513772545600 "GET /products/?category=activewear,essentials,%20jeans,%20shirts HTTP/1.1" 200 75851
+INFO 2024-08-10 10:07:28,894 autoreload 2167 140514474003520 /workspace/boutique_ado_v1/products/views.py changed, reloading.
+INFO 2024-08-10 10:07:29,194 autoreload 2711 140178761616448 Watching for file changes with StatReloader
+INFO 2024-08-10 10:07:53,244 basehttp 2711 140178705348160 "GET /products/?category=activewear,essentials,%20jeans,%20shirts HTTP/1.1" 200 75851
+INFO 2024-08-10 10:11:05,072 autoreload 2711 140178761616448 /workspace/boutique_ado_v1/products/views.py changed, reloading.
+INFO 2024-08-10 10:11:05,369 autoreload 2875 140041027083328 Watching for file changes with StatReloader
+INFO 2024-08-10 10:11:10,126 basehttp 2875 140040898344512 "GET /products/?category=activewear,essentials,%20jeans,%20shirts HTTP/1.1" 200 164497
+INFO 2024-08-10 10:12:09,119 basehttp 2875 140040889951808 "GET /products/?category=essentials HTTP/1.1" 200 48930
+INFO 2024-08-10 10:12:13,660 basehttp 2875 140040881559104 "GET /products/?category=shirts HTTP/1.1" 200 52921
+INFO 2024-08-10 10:12:18,910 basehttp 2875 140040873166400 "GET /products/?category=activewear HTTP/1.1" 200 37942
+INFO 2024-08-10 10:21:26,063 basehttp 2875 140040864773696 "GET /products/?category=activewear,essentials,%20jeans,%20shirts HTTP/1.1" 200 165607
+INFO 2024-08-10 10:22:11,252 basehttp 2875 140040856380992 "GET /products/?category=activewear,essentials,%20jeans,%20shirts HTTP/1.1" 200 165607
+INFO 2024-08-10 10:22:18,056 basehttp 2875 140040847988288 "GET /products/?category=activewear,essentials,%20jeans,%20shirts HTTP/1.1" 200 165607
+INFO 2024-08-10 10:22:29,045 basehttp 2875 140040361473600 "GET /products/?category=activewear,essentials,%20jeans,%20shirts HTTP/1.1" 200 165607
+INFO 2024-08-10 10:22:29,318 basehttp 2875 140040344688192 "GET /static/css/base.css HTTP/1.1" 200 1821
+INFO 2024-08-10 10:22:29,318 basehttp 2875 140040353080896 "GET /media/DP0709201205510679M.jpg HTTP/1.1" 200 17826
+INFO 2024-08-10 10:22:29,318 basehttp 2875 140040336295488 "GET /media/DP0624201520422666C.jpg HTTP/1.1" 200 34132
+INFO 2024-08-10 10:22:29,970 basehttp 2875 140040327902784 "GET /media/0900631B81B0C2D9M.jpg HTTP/1.1" 200 10401
+INFO 2024-08-10 10:22:29,973 basehttp 2875 140040319510080 "GET /media/DP0510201317010521M.jpg HTTP/1.1" 200 29381
+INFO 2024-08-10 10:22:30,205 basehttp 2875 140040311117376 "GET /media/DP0430201405053680M.jpg HTTP/1.1" 200 20318
+INFO 2024-08-10 10:22:30,409 basehttp 2875 140039824602688 "GET /media/0900631B81C9387BM.jpg HTTP/1.1" 200 22915
+INFO 2024-08-10 10:22:30,460 basehttp 2875 140039816209984 "GET /media/DP1119201520340305C.jpg HTTP/1.1" 200 20791
+INFO 2024-08-10 10:22:30,460 basehttp 2875 140039799424576 "GET /media/DP0927201317061305M.jpg HTTP/1.1" 200 19879
+INFO 2024-08-10 10:22:30,460 basehttp 2875 140039807817280 "GET /media/DP0918201520303373C.jpg HTTP/1.1" 200 13389
+INFO 2024-08-10 10:22:30,461 basehttp 2875 140039791031872 "GET /media/DP1029201317111469M.jpg HTTP/1.1" 200 17312
+INFO 2024-08-10 10:22:30,463 basehttp 2875 140039782639168 "GET /media/homepage_background_cropped.jpg HTTP/1.1" 200 1231185
+INFO 2024-08-10 10:22:30,653 basehttp 2875 140039774246464 "GET /media/DP1108201317050996M.jpg HTTP/1.1" 200 26659
+INFO 2024-08-10 10:22:30,712 basehttp 2875 140039287731776 "GET /media/DP1028201517024563M.jpg HTTP/1.1" 200 11370
+INFO 2024-08-10 10:22:30,730 basehttp 2875 140039279339072 "GET /media/DP0421201520311379C.jpg HTTP/1.1" 200 20445
+INFO 2024-08-10 10:22:30,730 basehttp 2875 140039270946368 "GET /media/DP0915201413433903C.jpg HTTP/1.1" 200 16260
+INFO 2024-08-10 10:22:30,730 basehttp 2875 140039262553664 "GET /media/DP0430201405113681M.jpg HTTP/1.1" 200 13569
+INFO 2024-08-10 10:22:31,307 basehttp 2875 140039254160960 "GET /media/DP0919201417043014M.jpg HTTP/1.1" 200 18820
+INFO 2024-08-10 10:22:31,325 basehttp 2875 140039237375552 "GET /media/DP0414201520383920C.jpg HTTP/1.1" 200 27493
+INFO 2024-08-10 10:22:31,326 basehttp 2875 140039245768256 "GET /media/DP1019201520531375C.jpg HTTP/1.1" 200 22671
+INFO 2024-08-10 10:22:31,326 basehttp 2875 140038742468160 "GET /media/DP0113201523230512M.jpg HTTP/1.1" 200 14247
+INFO 2024-08-10 10:22:31,326 basehttp 2875 140038734075456 "GET /media/DP0515201517012588M.jpg HTTP/1.1" 200 22298
+INFO 2024-08-10 10:22:31,326 basehttp 2875 140038750860864 "GET /media/DP1202201412542357M.jpg HTTP/1.1" 200 65253
+INFO 2024-08-10 10:22:31,518 basehttp 2875 140038725682752 "GET /media/DP0526201517022624M.jpg HTTP/1.1" 200 17838
+INFO 2024-08-10 10:22:31,574 basehttp 2875 140038717290048 "GET /media/DP0608201517035747M.jpg HTTP/1.1" 200 15814
+INFO 2024-08-10 10:22:31,574 basehttp 2875 140038708897344 "GET /media/DP0608201517035688M.jpg HTTP/1.1" 200 19549
+INFO 2024-08-10 10:22:31,577 basehttp 2875 140038700504640 "GET /media/DP0608201517035763M.jpg HTTP/1.1" 200 17474
+INFO 2024-08-10 10:22:31,605 basehttp 2875 140038213989952 "GET /media/DP0831201520432399C.jpg HTTP/1.1" 200 22228
+INFO 2024-08-10 10:22:31,605 basehttp 2875 140038205597248 "GET /media/DP0612201517032350M.jpg HTTP/1.1" 200 12927
+INFO 2024-08-10 10:22:31,755 basehttp 2875 140038197204544 "GET /media/DP0526201623053167C.jpg HTTP/1.1" 200 18433
+INFO 2024-08-10 10:22:31,817 basehttp 2875 140038188811840 "GET /media/DP0623201517030671M.jpg HTTP/1.1" 200 18188
+INFO 2024-08-10 10:22:31,826 basehttp 2875 140038180419136 "GET /media/DP0623201517030686M.jpg HTTP/1.1" 200 18414
+INFO 2024-08-10 10:22:31,829 basehttp 2875 140038172026432 "GET /media/DP0702201517033643M.jpg HTTP/1.1" 200 13733
+INFO 2024-08-10 10:22:31,854 basehttp 2875 140038163633728 "GET /media/DP1008201517035763M.jpg HTTP/1.1" 200 26743
+INFO 2024-08-10 10:22:31,869 basehttp 2875 140037677119040 "GET /media/DP0717201517041911M.jpg HTTP/1.1" 200 23846
+INFO 2024-08-10 10:22:31,972 basehttp 2875 140037668726336 "GET /media/DP0724201517031934M.jpg HTTP/1.1" 200 25628
+INFO 2024-08-10 10:22:32,053 basehttp 2875 140037660333632 "GET /media/DP0724201517024000M.jpg HTTP/1.1" 200 28254
+INFO 2024-08-10 10:22:32,104 basehttp 2875 140037651940928 "GET /media/DP0731201517031510M.jpg HTTP/1.1" 200 30091
+INFO 2024-08-10 10:22:32,108 basehttp 2875 140037643548224 "GET /media/DP0731201517024285M.jpg HTTP/1.1" 200 62221
+INFO 2024-08-10 10:22:32,158 basehttp 2875 140037635155520 "GET /media/DP0903201517023529M.jpg HTTP/1.1" 200 24651
+INFO 2024-08-10 10:22:32,158 basehttp 2875 140037626762816 "GET /media/DP0828201517024772M.jpg HTTP/1.1" 200 43218
+INFO 2024-08-10 10:22:32,204 basehttp 2875 140037140248128 "GET /media/DP1230201520420777C.jpg HTTP/1.1" 200 10941
+INFO 2024-08-10 10:22:32,262 basehttp 2875 140037131855424 "GET /media/DP0929201502575389M.jpg HTTP/1.1" 200 39942
+INFO 2024-08-10 10:22:32,365 basehttp 2875 140037123462720 "GET /media/DP1104201517020304M.jpg HTTP/1.1" 200 22368
+INFO 2024-08-10 10:22:32,365 basehttp 2875 140037115070016 "GET /media/DP1022201517023782M.jpg HTTP/1.1" 200 30812
+INFO 2024-08-10 10:22:32,408 basehttp 2875 140037106677312 "GET /media/DP1106201517012318M.jpg HTTP/1.1" 200 30519
+INFO 2024-08-10 10:22:32,458 basehttp 2875 140037098284608 "GET /media/DP1030201517035843M.jpg HTTP/1.1" 200 27666
+INFO 2024-08-10 10:22:32,459 basehttp 2875 140037089891904 "GET /media/DP1119201517043586M.jpg HTTP/1.1" 200 24752
+INFO 2024-08-10 10:22:32,475 basehttp 2875 140036603377216 "GET /media/DP1124201517014225M.jpg HTTP/1.1" 200 21230
+INFO 2024-08-10 10:22:32,607 basehttp 2875 140036594984512 "GET /media/DP1222201517041287M.jpg HTTP/1.1" 200 33474
+INFO 2024-08-10 10:22:32,611 basehttp 2875 140036586591808 "GET /media/DP0405201620454892C.jpg HTTP/1.1" 200 19099
+INFO 2024-08-10 10:22:32,619 basehttp 2875 140036578199104 "GET /media/DP1202201502000682M.jpg HTTP/1.1" 200 16816
+INFO 2024-08-10 10:22:32,678 basehttp 2875 140036569806400 "GET /media/DP1202201517021959M.jpg HTTP/1.1" 200 19010
+INFO 2024-08-10 10:22:32,703 basehttp 2875 140036561413696 "GET /media/DP1202201517023245M.jpg HTTP/1.1" 200 14425
+INFO 2024-08-10 10:22:32,711 basehttp 2875 140036553020992 "GET /media/DP0726201317024762M.jpg HTTP/1.1" 200 22144
+INFO 2024-08-10 10:22:32,829 basehttp 2875 140036066506304 "GET /media/DP0119201620405230C.jpg HTTP/1.1" 200 29415
+INFO 2024-08-10 10:22:32,862 basehttp 2875 140036049720896 "GET /media/DP1223201517040398M.jpg HTTP/1.1" 200 16984
+INFO 2024-08-10 10:22:32,862 basehttp 2875 140036058113600 "GET /media/DP0224201620571013C.jpg HTTP/1.1" 200 25535
+INFO 2024-08-10 10:22:32,926 basehttp 2875 140036041328192 "GET /media/DP1216201517030998M.jpg HTTP/1.1" 200 17336
+INFO 2024-08-10 10:22:32,926 basehttp 2875 140036032935488 "GET /media/DP0217201617084849M.jpg HTTP/1.1" 200 30919
+INFO 2024-08-10 10:22:32,954 basehttp 2875 140036024542784 "GET /media/DP0309201620474626C.jpg HTTP/1.1" 200 23034
+INFO 2024-08-10 10:22:33,075 basehttp 2875 140036016150080 "GET /media/DP1211201503400830M.jpg HTTP/1.1" 200 15749
+INFO 2024-08-10 10:22:33,106 basehttp 2875 140035529635392 "GET /media/DP1216201517031308M.jpg HTTP/1.1" 200 12626
+INFO 2024-08-10 10:22:33,106 basehttp 2875 140035521242688 "GET /media/DP0217201617074443M.jpg HTTP/1.1" 200 27035
+INFO 2024-08-10 10:22:33,172 basehttp 2875 140035512849984 "GET /media/DP0316201621115243C.jpg HTTP/1.1" 200 16547
+INFO 2024-08-10 10:22:33,205 basehttp 2875 140035504457280 "GET /media/DP0226201620313565C.jpg HTTP/1.1" 200 14194
+INFO 2024-08-10 10:22:33,205 basehttp 2875 140035496064576 "GET /media/DP1014201517033744M.jpg HTTP/1.1" 200 38680
+INFO 2024-08-10 10:22:33,315 basehttp 2875 140035487671872 "GET /media/DP0216201620424511C.jpg HTTP/1.1" 200 16426
+INFO 2024-08-10 10:22:33,325 basehttp 2875 140035479279168 "GET /media/DP0224201617043146M.jpg HTTP/1.1" 200 20404
+INFO 2024-08-10 10:22:33,325 basehttp 2875 140034992764480 "GET /media/DP0722201517022951M.jpg HTTP/1.1" 200 18514
+INFO 2024-08-10 10:28:05,616 basehttp 2875 140034984371776 "GET /products/?category=activewear,essentials,%20jeans,%20shirts HTTP/1.1" 200 162534
+INFO 2024-08-10 10:28:17,009 basehttp 2875 140034975979072 "GET /products/?category=activewear,essentials,%20jeans,%20shirts HTTP/1.1" 200 162534
+INFO 2024-08-10 10:28:20,536 basehttp 2875 140034967586368 "GET /products/?category=kitchen_dining,bed_bath HTTP/1.1" 200 104428
+INFO 2024-08-10 10:28:20,859 basehttp 2875 140034959193664 "GET /media/DP1230201417013175M.jpg HTTP/1.1" 200 32693
+INFO 2024-08-10 10:28:20,859 basehttp 2875 140034950800960 "GET /media/DP0716201503423610M.jpg HTTP/1.1" 200 21124
+INFO 2024-08-10 10:28:20,912 basehttp 2875 140034942408256 "GET /media/DP1115201210371197C.jpg HTTP/1.1" 200 21550
+INFO 2024-08-10 10:28:20,912 basehttp 2875 140034455893568 "GET /media/DP1020201517025390M.jpg HTTP/1.1" 200 19283
+INFO 2024-08-10 10:28:20,912 basehttp 2875 140034439108160 "GET /media/DP0926201317071162M.jpg HTTP/1.1" 200 12040
+INFO 2024-08-10 10:28:20,912 basehttp 2875 140034447500864 "GET /media/DP0418201317011949M.jpg HTTP/1.1" 200 24791
+INFO 2024-08-10 10:28:20,924 basehttp 2875 140034430715456 "GET /media/DP0807201317072274M.jpg HTTP/1.1" 200 23239
+INFO 2024-08-10 10:28:20,934 basehttp 2875 140033919022656 "GET /media/DP1023201317051585M.jpg HTTP/1.1" 200 6704
+INFO 2024-08-10 10:28:20,934 basehttp 2875 140034413930048 "GET /media/DP0807201317072924M.jpg HTTP/1.1" 200 28198
+INFO 2024-08-10 10:28:20,936 basehttp 2875 140034422322752 "GET /media/0900631B81D676AEM.jpg HTTP/1.1" 200 19826
+INFO 2024-08-10 10:28:20,938 basehttp 2875 140033910629952 "GET /media/DP0219201502115503C.jpg HTTP/1.1" 200 22240
+INFO 2024-08-10 10:28:20,942 basehttp 2875 140034405537344 "GET /media/DP0821201317103183M.jpg HTTP/1.1" 200 23098
+INFO 2024-08-10 10:28:20,942 basehttp 2875 140033885451840 "GET /media/DP0422201617033665M.jpg HTTP/1.1" 200 13012
+INFO 2024-08-10 10:28:20,942 basehttp 2875 140033902237248 "GET /media/DP0422201517022488M.jpg HTTP/1.1" 200 54612
+INFO 2024-08-10 10:28:20,942 basehttp 2875 140033893844544 "GET /media/DP0610201317080834M.jpg HTTP/1.1" 200 22972
+INFO 2024-08-10 10:28:20,947 basehttp 2875 140033382151744 "GET /media/DP0519201417080443M.jpg HTTP/1.1" 200 25752
+INFO 2024-08-10 10:28:20,948 basehttp 2875 140033877059136 "GET /media/DP0113201417050002M.jpg HTTP/1.1" 200 55886
+INFO 2024-08-10 10:28:20,949 basehttp 2875 140033373759040 "GET /media/DP0716201503421212M.jpg HTTP/1.1" 200 17117
+INFO 2024-08-10 10:28:20,949 basehttp 2875 140033868666432 "GET /media/DP0828201517030241M.jpg HTTP/1.1" 200 47364
+INFO 2024-08-10 10:28:20,949 basehttp 2875 140033365366336 "GET /media/DP0403201417141773M.jpg HTTP/1.1" 200 8777
+INFO 2024-08-10 10:28:20,950 basehttp 2875 140033348580928 "GET /media/DP0722201417110136M.jpg HTTP/1.1" 200 33268
+INFO 2024-08-10 10:28:20,950 basehttp 2875 140033356973632 "GET /media/DP0430201405213832M.jpg HTTP/1.1" 200 14878
+INFO 2024-08-10 10:28:20,951 basehttp 2875 140033331795520 "GET /media/DP1016201517091568M.jpg HTTP/1.1" 200 24590
+INFO 2024-08-10 10:28:20,951 basehttp 2875 140033340188224 "GET /media/DP0224201517023517M.jpg HTTP/1.1" 200 20821
+INFO 2024-08-10 10:28:21,966 basehttp 2875 140032820102720 "GET /media/DP0430201405232442M.jpg HTTP/1.1" 200 12554
+INFO 2024-08-10 10:28:21,966 basehttp 2875 140032836888128 "GET /media/DP0921201517052807M.jpg HTTP/1.1" 200 38341
+INFO 2024-08-10 10:28:21,967 basehttp 2875 140032845280832 "GET /media/DP1112201517050819M.jpg HTTP/1.1" 200 34640
+INFO 2024-08-10 10:28:21,967 basehttp 2875 140032828495424 "GET /media/DP0921201517052786M.jpg HTTP/1.1" 200 19930
+INFO 2024-08-10 10:28:21,967 basehttp 2875 140032811710016 "GET /media/0900631B8142A3AFM.jpg HTTP/1.1" 200 25631
+INFO 2024-08-10 10:28:21,968 basehttp 2875 140032803317312 "GET /media/DP0302201517030242M.jpg HTTP/1.1" 200 50778
+INFO 2024-08-10 10:28:21,968 basehttp 2875 140032308409920 "GET /media/DP0714201504201760M.jpg HTTP/1.1" 200 49695
+INFO 2024-08-10 10:28:22,002 basehttp 2875 140032794924608 "GET /media/DP0126201620545687C.jpg HTTP/1.1" 200 41150
+INFO 2024-08-10 10:28:22,003 basehttp 2875 140032291624512 "GET /media/DP0519201517025089M.jpg HTTP/1.1" 200 28224
+INFO 2024-08-10 10:28:22,003 basehttp 2875 140032274839104 "GET /media/0900631B81D6766FM.jpg HTTP/1.1" 200 22569
+INFO 2024-08-10 10:28:22,003 basehttp 2875 140032283231808 "GET /media/DP1015201417131329M.jpg HTTP/1.1" 200 35237
+INFO 2024-08-10 10:28:22,003 basehttp 2875 140032300017216 "GET /media/DP0204201517030626M.jpg HTTP/1.1" 200 53869
+INFO 2024-08-10 10:28:22,172 basehttp 2875 140032266446400 "GET /media/0900631B8140782DM.jpg HTTP/1.1" 200 32586
+INFO 2024-08-10 10:28:22,173 basehttp 2875 140031771539008 "GET /media/DP0820201517013830M.jpg HTTP/1.1" 200 30563
+INFO 2024-08-10 10:28:22,173 basehttp 2875 140032258053696 "GET /media/DP1124201417012025M.jpg HTTP/1.1" 200 24137
+INFO 2024-08-10 10:28:22,173 basehttp 2875 140031763146304 "GET /media/0900631B81E48245M.jpg HTTP/1.1" 200 40204
+INFO 2024-08-10 10:28:22,174 basehttp 2875 140031754753600 "GET /media/DP0408201517021489M.jpg HTTP/1.1" 200 35007
+INFO 2024-08-10 10:28:22,174 basehttp 2875 140031746360896 "GET /media/DP1017201420511297C.jpg HTTP/1.1" 200 22403
+INFO 2024-08-10 10:28:39,068 basehttp 2875 140031737968192 "GET /products/?category=bed_bath HTTP/1.1" 200 60453
+INFO 2024-08-10 10:28:43,114 basehttp 2875 140031729575488 "GET /products/?sort=rating&direction=desc HTTP/1.1" 200 385382
+INFO 2024-08-10 10:28:43,472 basehttp 2875 140031721182784 "GET /media/DP0401201517030651M.jpg HTTP/1.1" 200 18188
+INFO 2024-08-10 10:28:43,472 basehttp 2875 140031234668096 "GET /media/DP0917201317033820M.jpg HTTP/1.1" 200 18171
+INFO 2024-08-10 10:28:43,472 basehttp 2875 140031226275392 "GET /media/DP0702201517031050M.jpg HTTP/1.1" 200 30087
+INFO 2024-08-10 10:28:43,473 basehttp 2875 140031217882688 "GET /media/DP0716201517033520M.jpg HTTP/1.1" 200 37816
+INFO 2024-08-10 10:28:43,497 basehttp 2875 140031209489984 "GET /media/DP0805201517023421M.jpg HTTP/1.1" 200 25411
+INFO 2024-08-10 10:28:43,498 basehttp 2875 140031201097280 "GET /media/DP0810201517010458M.jpg HTTP/1.1" 200 23886
+INFO 2024-08-10 10:28:43,711 basehttp 2875 140031192704576 "GET /media/DP0917201520473680C.jpg HTTP/1.1" 200 44607
+INFO 2024-08-10 10:28:43,759 basehttp 2875 140031184311872 "GET /media/DP1021201517031368M.jpg HTTP/1.1" 200 48416
+INFO 2024-08-10 10:28:43,764 basehttp 2875 140030697797184 "GET /media/DP0216201620412947C.jpg HTTP/1.1" 200 15818
+INFO 2024-08-10 10:28:43,764 basehttp 2875 140030689404480 "GET /media/DP1208201517020379M.jpg HTTP/1.1" 200 21928
+INFO 2024-08-10 10:28:43,769 basehttp 2875 140030681011776 "GET /media/DP1218201517095959M.jpg HTTP/1.1" 200 37894
+INFO 2024-08-10 10:28:43,770 basehttp 2875 140030664226368 "GET /media/DP1109201517012575M.jpg HTTP/1.1" 200 27454
+INFO 2024-08-10 10:28:43,770 basehttp 2875 140030672619072 "GET /media/DP0107201603172435M.jpg HTTP/1.1" 200 31535
+INFO 2024-08-10 10:28:43,770 basehttp 2875 140030655833664 "GET /media/DP0226201617024158M.jpg HTTP/1.1" 200 31731
+INFO 2024-08-10 10:28:43,931 basehttp 2875 140030647440960 "GET /media/DP0322201617031084M.jpg HTTP/1.1" 200 20115
+INFO 2024-08-10 10:28:43,982 basehttp 2875 140030160926272 "GET /media/DP0322201617031125M.jpg HTTP/1.1" 200 12218
+INFO 2024-08-10 10:28:44,032 basehttp 2875 140030152533568 "GET /media/DP0407201620401180C.jpg HTTP/1.1" 200 24489
+INFO 2024-08-10 10:28:44,064 basehttp 2875 140030144140864 "GET /media/DP0404201617034496M.jpg HTTP/1.1" 200 22995
+INFO 2024-08-10 10:28:44,070 basehttp 2875 140030135748160 "GET /media/DP0413201617045408M.jpg HTTP/1.1" 200 44661
+INFO 2024-08-10 10:28:44,070 basehttp 2875 140030127355456 "GET /media/DP0413201617045423M.jpg HTTP/1.1" 200 29091
+INFO 2024-08-10 10:28:44,070 basehttp 2875 140030118962752 "GET /media/DP0408201617014664M.jpg HTTP/1.1" 200 43444
+INFO 2024-08-10 10:28:44,077 basehttp 2875 140030110570048 "GET /media/DP0421201617033514M.jpg HTTP/1.1" 200 17008
+INFO 2024-08-10 10:28:44,165 basehttp 2875 140029624055360 "GET /media/DP0429201617074742M.jpg HTTP/1.1" 200 40456
+INFO 2024-08-10 10:28:44,215 basehttp 2875 140029615662656 "GET /media/DP0527201520374912C.jpg HTTP/1.1" 200 41018
+INFO 2024-08-10 10:28:44,281 basehttp 2875 140029607269952 "GET /media/DP0807201517015600M.jpg HTTP/1.1" 200 33626
+INFO 2024-08-10 10:28:44,308 basehttp 2875 140029598877248 "GET /media/DP0710201517034239M.jpg HTTP/1.1" 200 12426
+INFO 2024-08-10 10:28:44,364 basehttp 2875 140029590484544 "GET /media/DP0908201517020936M.jpg HTTP/1.1" 200 10281
+INFO 2024-08-10 10:28:44,364 basehttp 2875 140029573699136 "GET /media/DP1016201517075816M.jpg HTTP/1.1" 200 20916
+INFO 2024-08-10 10:28:44,365 basehttp 2875 140029582091840 "GET /media/DP1105201517015618M.jpg HTTP/1.1" 200 25735
+INFO 2024-08-10 10:28:44,365 basehttp 2875 140029087184448 "GET /media/DP0323201517042926M.jpg HTTP/1.1" 200 12829
+INFO 2024-08-10 10:28:44,408 basehttp 2875 140029078791744 "GET /media/DP1228201517142050M.jpg HTTP/1.1" 200 15909
+INFO 2024-08-10 10:28:44,459 basehttp 2875 140029070399040 "GET /media/DP0304201620452035C.jpg HTTP/1.1" 200 13732
+INFO 2024-08-10 10:28:44,528 basehttp 2875 140029053613632 "GET /media/DP0113201617034987M.jpg HTTP/1.1" 200 10820
+INFO 2024-08-10 10:28:44,528 basehttp 2875 140029062006336 "GET /media/DP0401201417083996M.jpg HTTP/1.1" 200 34616
+INFO 2024-08-10 10:28:44,608 basehttp 2875 140029036828224 "GET /media/DP0310201620422443C.jpg HTTP/1.1" 200 17196
+INFO 2024-08-10 10:28:44,608 basehttp 2875 140029045220928 "GET /media/DP0428201617042837M.jpg HTTP/1.1" 200 52944
+INFO 2024-08-10 10:28:44,618 basehttp 2875 140028550313536 "GET /media/DP0325201617032536M.jpg HTTP/1.1" 200 28599
+INFO 2024-08-10 10:28:44,619 basehttp 2875 140028541920832 "GET /media/DP0404201617034330M.jpg HTTP/1.1" 200 12330
+INFO 2024-08-10 10:28:44,658 basehttp 2875 140028533528128 "GET /media/DP0721201517041500M.jpg HTTP/1.1" 200 29025
+INFO 2024-08-10 10:28:44,708 basehttp 2875 140028516742720 "GET /media/DP0226201317034754M.jpg HTTP/1.1" 200 11845
+INFO 2024-08-10 10:28:44,710 basehttp 2875 140028525135424 "GET /media/DP0320201517010207M.jpg HTTP/1.1" 200 24451
+INFO 2024-08-10 10:28:44,710 basehttp 2875 140028499957312 "GET /media/DP0325201617032503M.jpg HTTP/1.1" 200 20430
+INFO 2024-08-10 10:28:44,716 basehttp 2875 140028508350016 "GET /media/0900631B818ABCB9M.jpg HTTP/1.1" 200 20855
+INFO 2024-08-10 10:28:44,716 basehttp 2875 140028005049920 "GET /media/DP0218201621532296C.jpg HTTP/1.1" 200 29635
+INFO 2024-08-10 10:28:44,716 basehttp 2875 140028013442624 "GET /media/DP0411201617053625M.jpg HTTP/1.1" 200 17377
+INFO 2024-08-10 10:28:44,717 basehttp 2875 140027988264512 "GET /media/DP0105201617024447M.jpg HTTP/1.1" 200 14173
+INFO 2024-08-10 10:28:44,718 basehttp 2875 140027476571712 "GET /media/DP0213201417022274M.jpg HTTP/1.1" 200 12483
+INFO 2024-08-10 10:28:44,719 basehttp 2875 140027459786304 "GET /media/DP0414201617030734M.jpg HTTP/1.1" 200 15637
+INFO 2024-08-10 10:28:44,719 basehttp 2875 140027996657216 "GET /media/DP0715201417203832M.jpg HTTP/1.1" 200 27998
+INFO 2024-08-10 10:28:44,719 basehttp 2875 140027971479104 "GET /media/DP0226201617023618M.jpg HTTP/1.1" 200 25258
+INFO 2024-08-10 10:28:44,720 basehttp 2875 140027979871808 "GET /media/DP0515201517013144M.jpg HTTP/1.1" 200 29098
+INFO 2024-08-10 10:28:44,720 basehttp 2875 140027963086400 "GET /media/DP0527201517022924M.jpg HTTP/1.1" 200 27145
+INFO 2024-08-10 10:28:44,720 basehttp 2875 140027451393600 "GET /media/DP0805201520415923C.jpg HTTP/1.1" 200 15406
+INFO 2024-08-10 10:28:44,720 basehttp 2875 140027468179008 "GET /media/DP1002201517022007M.jpg HTTP/1.1" 200 40147
+INFO 2024-08-10 10:28:44,907 basehttp 2875 140027443000896 "GET /media/DP1014201517031451M.jpg HTTP/1.1" 200 48670
+INFO 2024-08-10 10:28:44,910 basehttp 2875 140027434608192 "GET /media/DP1220201417020921M.jpg HTTP/1.1" 200 25929
+INFO 2024-08-10 10:28:45,737 basehttp 2875 140027426215488 "GET /media/DP1104201517021565M.jpg HTTP/1.1" 200 12991
+INFO 2024-08-10 10:28:45,737 basehttp 2875 140026931308096 "GET /media/DP0930201517050189M.jpg HTTP/1.1" 200 22139
+INFO 2024-08-10 10:28:45,737 basehttp 2875 140026939700800 "GET /media/DP0608201517025373M.jpg HTTP/1.1" 200 17267
+INFO 2024-08-10 10:28:45,739 basehttp 2875 140026922915392 "GET /media/DP0421201617033561M.jpg HTTP/1.1" 200 26499
+INFO 2024-08-10 10:28:50,602 basehttp 2875 140026914522688 "GET /products/?sort=category&direction=asc HTTP/1.1" 200 385382
+INFO 2024-08-10 10:28:54,357 basehttp 2875 140026906129984 "GET /products/?sort=price&direction=asc HTTP/1.1" 200 385382
+INFO 2024-08-10 10:28:57,957 basehttp 2875 140026897737280 "GET /products/ HTTP/1.1" 200 385261
+INFO 2024-08-10 10:30:16,254 basehttp 2875 140026889344576 "GET /products/?sort=rating&direction=desc HTTP/1.1" 200 385382
+INFO 2024-08-10 10:30:20,453 basehttp 2875 140026402829888 "GET /products/ HTTP/1.1" 200 385261
+INFO 2024-08-10 10:33:16,961 autoreload 2875 140041027083328 /workspace/boutique_ado_v1/products/views.py changed, reloading.
+INFO 2024-08-10 10:33:17,270 autoreload 4028 139717254450240 Watching for file changes with StatReloader
+INFO 2024-08-10 10:33:37,466 basehttp 4028 139717198739008 "GET /products/?sort=category&direction=asc HTTP/1.1" 200 385382
+INFO 2024-08-10 10:34:02,781 basehttp 4028 139717189297728 "GET /products/?sort=category&direction=desc HTTP/1.1" 200 385382
+INFO 2024-08-10 10:34:24,423 basehttp 4028 139717179856448 "GET /products/?category=activewear,essentials,%20jeans,%20shirts HTTP/1.1" 200 162534
+INFO 2024-08-10 10:34:34,564 basehttp 4028 139716963857984 "GET /products/?category=jeans HTTP/1.1" 200 57682
