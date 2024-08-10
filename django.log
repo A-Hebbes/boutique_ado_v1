@@ -518,3 +518,9 @@ INFO 2024-08-10 23:38:44,770 basehttp 3799 140601809954368 "GET /static/css/base
 INFO 2024-08-10 23:38:45,840 basehttp 3799 140601592903232 "GET /media/homepage_background_cropped.jpg HTTP/1.1" 304 0
 INFO 2024-08-10 23:38:56,142 basehttp 3799 140601584510528 "GET /bag/ HTTP/1.1" 200 10494
 INFO 2024-08-10 23:38:59,473 basehttp 3799 140601576117824 "GET /bag/ HTTP/1.1" 200 10494
+INFO 2024-08-10 23:48:37,819 autoreload 3799 140601874467904 /workspace/boutique_ado_v1/boutique_ado/settings.py changed, reloading.
+INFO 2024-08-10 23:48:38,118 autoreload 5109 140716631747648 Watching for file changes with StatReloader
+INFO 2024-08-10 23:50:05,429 autoreload 5109 140716631747648 /workspace/boutique_ado_v1/boutique_ado/settings.py changed, reloading.
+INFO 2024-08-10 23:50:05,731 autoreload 5246 139925939833920 Watching for file changes with StatReloader
+INFO 2024-08-10 23:56:36,808 basehttp 5246 139925884237376 "GET /bag/ HTTP/1.1" 200 11339
+INFO 2024-08-10 23:56:43,719 basehttp 5246 139925806642752 "GET / HTTP/1.1" 200 10974
