@@ -826,3 +826,81 @@ INFO 2024-08-11 00:22:41,796 basehttp 8039 140197790475840 "GET /products/?categ
 INFO 2024-08-11 00:22:43,237 basehttp 8039 140197782083136 "GET /products/13/ HTTP/1.1" 200 13796
 INFO 2024-08-11 00:22:46,936 basehttp 8039 140197773690432 "POST /bag/add/13/ HTTP/1.1" 302 0
 INFO 2024-08-11 00:22:47,156 basehttp 8039 140197765297728 "GET /products/13/ HTTP/1.1" 200 13796
+INFO 2024-08-11 00:51:13,481 autoreload 10133 139638231702592 Watching for file changes with StatReloader
+ERROR 2024-08-11 00:51:22,611 log 10133 139638106748480 Internal Server Error: /
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/home/views.py", line 8, in index
+    return render(request, 'home/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 169, in render
+    with context.bind_template(self):
+  File "/home/gitpod/.pyenv/versions/3.12.2/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/context.py", line 254, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/contexts.py", line 14, in bag_contents
+    product = get_object_or_404(product, pk=item_id)
+                                ^^^^^^^
+UnboundLocalError: cannot access local variable 'product' where it is not associated with a value
+ERROR 2024-08-11 00:51:22,613 basehttp 10133 139638106748480 "GET / HTTP/1.1" 500 106942
+INFO 2024-08-11 00:53:45,674 autoreload 10133 139638231702592 /workspace/boutique_ado_v1/bag/contexts.py changed, reloading.
+INFO 2024-08-11 00:53:45,972 autoreload 10318 140043253525568 Watching for file changes with StatReloader
+ERROR 2024-08-11 00:53:48,675 log 10318 140043197871680 Internal Server Error: /
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/home/views.py", line 8, in index
+    return render(request, 'home/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 169, in render
+    with context.bind_template(self):
+  File "/home/gitpod/.pyenv/versions/3.12.2/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/context.py", line 254, in bind_template
+    context = processor(self.request)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/contexts.py", line 17, in bag_contents
+    bag_item.append({
+    ^^^^^^^^
+NameError: name 'bag_item' is not defined. Did you mean: 'bag_items'?
+ERROR 2024-08-11 00:53:48,677 basehttp 10318 140043197871680 "GET / HTTP/1.1" 500 107013
+INFO 2024-08-11 00:55:50,786 autoreload 10318 140043253525568 /workspace/boutique_ado_v1/bag/contexts.py changed, reloading.
+INFO 2024-08-11 00:55:51,080 autoreload 10450 140390741154880 Watching for file changes with StatReloader
+INFO 2024-08-11 00:56:04,213 basehttp 10450 140390685472320 "GET / HTTP/1.1" 200 11013
+INFO 2024-08-11 00:56:04,475 basehttp 10450 140390602634816 "GET /static/css/base.css HTTP/1.1" 200 2267
+INFO 2024-08-11 00:56:10,073 basehttp 10450 140390594242112 "GET /products/ HTTP/1.1" 200 386335
+INFO 2024-08-11 00:56:12,170 basehttp 10450 140390585849408 "GET /products/1/ HTTP/1.1" 200 13817
+INFO 2024-08-11 00:56:13,983 basehttp 10450 140390577456704 "POST /bag/add/1/ HTTP/1.1" 302 0
+INFO 2024-08-11 00:56:14,198 basehttp 10450 140390569064000 "GET /products/1/ HTTP/1.1" 200 13817
+INFO 2024-08-11 00:56:24,480 basehttp 10450 140390560671296 "GET /bag/ HTTP/1.1" 200 11353
