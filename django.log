@@ -524,3 +524,305 @@ INFO 2024-08-10 23:50:05,429 autoreload 5109 140716631747648 /workspace/boutique
 INFO 2024-08-10 23:50:05,731 autoreload 5246 139925939833920 Watching for file changes with StatReloader
 INFO 2024-08-10 23:56:36,808 basehttp 5246 139925884237376 "GET /bag/ HTTP/1.1" 200 11339
 INFO 2024-08-10 23:56:43,719 basehttp 5246 139925806642752 "GET / HTTP/1.1" 200 10974
+INFO 2024-08-11 00:07:55,140 basehttp 5246 139925798250048 "GET / HTTP/1.1" 200 10974
+INFO 2024-08-11 00:08:09,384 basehttp 5246 139925789857344 "GET / HTTP/1.1" 200 10974
+INFO 2024-08-11 00:08:17,266 basehttp 5246 139925781464640 "GET /products/ HTTP/1.1" 200 386296
+INFO 2024-08-11 00:08:17,621 basehttp 5246 139925773071936 "GET /media/DP0709201205510679M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:17,683 basehttp 5246 139925764679232 "GET /media/DP0113201617034987M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:17,688 basehttp 5246 139925756286528 "GET /media/DP1230201417013175M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:17,691 basehttp 5246 139925202662976 "GET /media/DP1115201210371197C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:17,691 basehttp 5246 139925194270272 "GET /media/DP0716201503423610M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:17,714 basehttp 5246 139925185877568 "GET /media/DP0624201520422666C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:17,720 basehttp 5246 139925177484864 "GET /media/DP0226201317034754M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:17,721 basehttp 5246 139925169092160 "GET /media/DP0926201317071162M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:18,872 basehttp 5246 139925160699456 "GET /media/0900631B81B0C2D9M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:18,913 basehttp 5246 139924665792064 "GET /media/DP0418201317011949M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:18,913 basehttp 5246 139924657399360 "GET /media/DP1020201517025390M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:18,914 basehttp 5246 139924649006656 "GET /media/DP0510201317010521M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:18,914 basehttp 5246 139925152306752 "GET /media/DP0430201405053680M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:18,914 basehttp 5246 139924640613952 "GET /media/DP0918201520303373C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:18,916 basehttp 5246 139924632221248 "GET /media/0900631B81C9387BM.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:18,916 basehttp 5246 139924623828544 "GET /media/DP1029201317111469M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,175 basehttp 5246 139924615435840 "GET /media/DP1119201520340305C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,175 basehttp 5246 139924128921152 "GET /media/DP0807201317072274M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,184 basehttp 5246 139924120528448 "GET /media/DP0807201317072924M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,188 basehttp 5246 139924112135744 "GET /media/0900631B81D676AEM.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,188 basehttp 5246 139924103743040 "GET /media/DP0821201317103183M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,191 basehttp 5246 139924095350336 "GET /media/DP0917201317033820M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,191 basehttp 5246 139924086957632 "GET /media/DP1023201317051585M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,191 basehttp 5246 139924078564928 "GET /media/DP0927201317061305M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,423 basehttp 5246 139923592050240 "GET /media/DP0610201317080834M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,424 basehttp 5246 139923583657536 "GET /media/DP0219201502115503C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,424 basehttp 5246 139923575264832 "GET /media/DP1108201317050996M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,446 basehttp 5246 139923566872128 "GET /media/DP0213201417022274M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,446 basehttp 5246 139923550086720 "GET /media/DP1028201517024563M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,447 basehttp 5246 139923558479424 "GET /media/0900631B818ABCB9M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,447 basehttp 5246 139923541694016 "GET /media/DP0422201517022488M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,448 basehttp 5246 139923055179328 "GET /media/DP0113201417050002M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,662 basehttp 5246 139923046786624 "GET /media/DP0422201617033665M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,735 basehttp 5246 139923038393920 "GET /media/DP0915201413433903C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,738 basehttp 5246 139923030001216 "GET /media/DP0430201405113681M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,739 basehttp 5246 139923013215808 "GET /media/DP0828201517030241M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,739 basehttp 5246 139923021608512 "GET /media/DP0401201417083996M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,740 basehttp 5246 139923004823104 "GET /media/DP0715201417203832M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,740 basehttp 5246 139922518308416 "GET /media/DP0403201417141773M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,740 basehttp 5246 139922509915712 "GET /media/DP0430201405213832M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:19,893 basehttp 5246 139922501523008 "GET /media/DP0430201405232442M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,064 basehttp 5246 139922493130304 "GET /media/DP0519201417080443M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,091 basehttp 5246 139922484737600 "GET /media/DP0716201503421212M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,093 basehttp 5246 139922476344896 "GET /media/DP0421201520311379C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,094 basehttp 5246 139922467952192 "GET /media/DP0722201417110136M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,094 basehttp 5246 139921981437504 "GET /media/DP0919201417043014M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,094 basehttp 5246 139921973044800 "GET /media/DP1017201420511297C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,094 basehttp 5246 139921964652096 "GET /media/0900631B8140782DM.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,689 basehttp 5246 139921956259392 "GET /media/DP1202201412542357M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,689 basehttp 5246 139921947866688 "GET /media/DP1015201417131329M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,718 basehttp 5246 139921939473984 "GET /media/DP0414201520383920C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,752 basehttp 5246 139921931081280 "GET /media/DP1124201417012025M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,753 basehttp 5246 139921444566592 "GET /media/DP1220201417020921M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,753 basehttp 5246 139921436173888 "GET /media/DP1019201520531375C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,754 basehttp 5246 139921427781184 "GET /media/DP0113201523230512M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,755 basehttp 5246 139921419388480 "GET /media/DP0428201617042837M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,919 basehttp 5246 139921410995776 "GET /media/DP0323201517042926M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,919 basehttp 5246 139921402603072 "GET /media/DP0204201517030626M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,928 basehttp 5246 139921394210368 "GET /media/DP0224201517023517M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,990 basehttp 5246 139920907695680 "GET /media/DP0302201517030242M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,990 basehttp 5246 139920899302976 "GET /media/DP0320201517010207M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,990 basehttp 5246 139920890910272 "GET /media/DP0408201517021489M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,991 basehttp 5246 139920882517568 "GET /media/DP0527201520374912C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:20,992 basehttp 5246 139920874124864 "GET /media/DP0401201517030651M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,140 basehttp 5246 139920865732160 "GET /media/DP0515201517013144M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,140 basehttp 5246 139920857339456 "GET /media/DP0515201517012588M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,164 basehttp 5246 139920370824768 "GET /media/DP0526201517022624M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,232 basehttp 5246 139920362432064 "GET /media/DP0519201517025089M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,236 basehttp 5246 139920354039360 "GET /media/DP0608201517025373M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,237 basehttp 5246 139920345646656 "GET /media/0900631B8142A3AFM.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,238 basehttp 5246 139920337253952 "GET /media/DP0608201517035747M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,238 basehttp 5246 139920328861248 "GET /media/DP0608201517035688M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,368 basehttp 5246 139920320468544 "GET /media/DP0608201517035763M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,368 basehttp 5246 139919833953856 "GET /media/DP0612201517032350M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,418 basehttp 5246 139919825561152 "GET /media/DP0831201520432399C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,475 basehttp 5246 139919817168448 "GET /media/DP0623201517030671M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,475 basehttp 5246 139919808775744 "GET /media/DP0526201623053167C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,476 basehttp 5246 139919800383040 "GET /media/DP0623201517030686M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,478 basehttp 5246 139919791990336 "GET /media/DP0702201517033643M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,478 basehttp 5246 139919783597632 "GET /media/DP0702201517031050M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,584 basehttp 5246 139919297082944 "GET /media/DP0716201517033520M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,584 basehttp 5246 139919288690240 "GET /media/DP1008201517035763M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,635 basehttp 5246 139919280297536 "GET /media/DP0717201517041911M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,718 basehttp 5246 139919271904832 "GET /media/DP0527201517022924M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,720 basehttp 5246 139919263512128 "GET /media/DP0714201504201760M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,721 basehttp 5246 139919255119424 "GET /media/DP0805201520415923C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,721 basehttp 5246 139918760212032 "GET /media/DP0724201517031934M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,721 basehttp 5246 139919246726720 "GET /media/DP0710201517034239M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,817 basehttp 5246 139918751819328 "GET /media/DP0721201517041500M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,818 basehttp 5246 139918743426624 "GET /media/DP0724201517024000M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,846 basehttp 5246 139918735033920 "GET /media/DP0731201517031510M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,967 basehttp 5246 139918726641216 "GET /media/DP0731201517024285M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,971 basehttp 5246 139918223341120 "GET /media/DP0805201517023421M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,971 basehttp 5246 139918718248512 "GET /media/DP0810201517010458M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,971 basehttp 5246 139918709855808 "GET /media/DP0807201517015600M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:21,971 basehttp 5246 139918214948416 "GET /media/DP0917201520473680C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,031 basehttp 5246 139918206555712 "GET /media/DP0820201517013830M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,036 basehttp 5246 139918198163008 "GET /media/DP0903201517023529M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,071 basehttp 5246 139918189770304 "GET /media/DP0908201517020936M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,226 basehttp 5246 139918181377600 "GET /media/DP0828201517024772M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,227 basehttp 5246 139917686470208 "GET /media/DP1002201517022007M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,227 basehttp 5246 139918172984896 "GET /media/DP1230201520420777C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,228 basehttp 5246 139917678077504 "GET /media/DP0930201517050189M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,228 basehttp 5246 139917669684800 "GET /media/DP0929201502575389M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,239 basehttp 5246 139917661292096 "GET /media/DP0921201517052807M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,265 basehttp 5246 139917652899392 "GET /media/DP0921201517052786M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,289 basehttp 5246 139917644506688 "GET /media/DP1014201517031451M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,470 basehttp 5246 139917636113984 "GET /media/DP1021201517031368M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,479 basehttp 5246 139917141206592 "GET /media/DP1022201517023782M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,479 basehttp 5246 139917132813888 "GET /media/DP1016201517075816M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,480 basehttp 5246 139917149599296 "GET /media/DP1112201517050819M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,480 basehttp 5246 139917116028480 "GET /media/DP1104201517020304M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,480 basehttp 5246 139917124421184 "GET /media/DP1106201517012318M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,494 basehttp 5246 139917107635776 "GET /media/DP1104201517021565M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,514 basehttp 5246 139917099243072 "GET /media/DP0216201620412947C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,740 basehttp 5246 139916612728384 "GET /media/DP1105201517015618M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,741 basehttp 5246 139916604335680 "GET /media/DP1030201517035843M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,743 basehttp 5246 139916595942976 "GET /media/DP1119201517043586M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,744 basehttp 5246 139916579157568 "GET /media/DP1222201517041287M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,744 basehttp 5246 139916587550272 "GET /media/DP1124201517014225M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,744 basehttp 5246 139916570764864 "GET /media/DP0405201620454892C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,765 basehttp 5246 139916562372160 "GET /media/DP1202201517021959M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,765 basehttp 5246 139916075857472 "GET /media/DP1202201502000682M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,991 basehttp 5246 139916067464768 "GET /media/DP1202201517023245M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,993 basehttp 5246 139916059072064 "GET /media/DP1208201517020379M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:22,993 basehttp 5246 139916050679360 "GET /media/DP0726201317024762M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,017 basehttp 5246 139916042286656 "GET /media/DP0119201620405230C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,017 basehttp 5246 139916033893952 "GET /media/DP1109201517012575M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,017 basehttp 5246 139916025501248 "GET /media/DP0105201617024447M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,018 basehttp 5246 139915530593856 "GET /media/DP0224201620571013C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,018 basehttp 5246 139915538986560 "GET /media/DP1228201517142050M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,226 basehttp 5246 139915522201152 "GET /media/DP1218201517095959M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,237 basehttp 5246 139915513808448 "GET /media/DP1223201517040398M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,237 basehttp 5246 139915505415744 "GET /media/DP0304201620452035C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,268 basehttp 5246 139915497023040 "GET /media/DP0126201620545687C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,270 basehttp 5246 139915002115648 "GET /media/DP0107201603172435M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,270 basehttp 5246 139915488630336 "GET /media/DP0217201617084849M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,271 basehttp 5246 139914985330240 "GET /media/DP1216201517030998M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,271 basehttp 5246 139914993722944 "GET /media/DP0309201620474626C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,440 basehttp 5246 139914976937536 "GET /media/DP1211201503400830M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,464 basehttp 5246 139914968544832 "GET /media/DP1216201517031308M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,469 basehttp 5246 139914960152128 "GET /media/0900631B81E48245M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,515 basehttp 5246 139914951759424 "GET /media/DP0310201620422443C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,516 basehttp 5246 139914465244736 "GET /media/DP0218201621532296C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,517 basehttp 5246 139914456852032 "GET /media/0900631B81D6766FM.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,518 basehttp 5246 139914448459328 "GET /media/DP0217201617074443M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,518 basehttp 5246 139914440066624 "GET /media/DP1016201517091568M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,665 basehttp 5246 139914431673920 "GET /media/DP0316201621115243C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,693 basehttp 5246 139914423281216 "GET /media/DP0226201617024158M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,694 basehttp 5246 139914414888512 "GET /media/DP1014201517033744M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,737 basehttp 5246 139913928373824 "GET /media/DP0226201620313565C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,740 basehttp 5246 139913919981120 "GET /media/DP0224201617043146M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,742 basehttp 5246 139913903195712 "GET /media/DP0325201617032503M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,742 basehttp 5246 139913894803008 "GET /media/DP0216201620424511C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,742 basehttp 5246 139913911588416 "GET /media/DP0722201517022951M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,886 basehttp 5246 139913886410304 "GET /media/DP0322201617031084M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,939 basehttp 5246 139913878017600 "GET /media/DP0407201620401180C.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,939 basehttp 5246 139913391502912 "GET /media/DP0322201617031125M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:23,964 basehttp 5246 139913383110208 "GET /media/DP0404201617034330M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:24,045 basehttp 5246 139913374717504 "GET /media/DP0414201617030734M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:24,079 basehttp 5246 139913357932096 "GET /media/DP0404201617034496M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:24,081 basehttp 5246 139913366324800 "GET /media/DP0411201617053625M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:24,081 basehttp 5246 139913349539392 "GET /media/DP0226201617023618M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:24,120 basehttp 5246 139913341146688 "GET /media/DP0413201617045423M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:24,167 basehttp 5246 139912854632000 "GET /media/DP0413201617045408M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:24,167 basehttp 5246 139912846239296 "GET /media/DP0408201617014664M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:24,172 basehttp 5246 139912837846592 "GET /media/DP0421201617033561M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:24,315 basehttp 5246 139912829453888 "GET /media/DP0421201617033514M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:24,316 basehttp 5246 139912821061184 "GET /media/DP0429201617074742M.jpg HTTP/1.1" 304 0
+INFO 2024-08-11 00:08:24,316 basehttp 5246 139912812668480 "GET /media/DP0325201617032536M.jpg HTTP/1.1" 304 0
+ERROR 2024-08-11 00:08:25,901 log 5246 139912804275776 Internal Server Error: /products/1/
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/products/views.py", line 81, in product_detail
+    return render(request, 'products/product_detail.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'add_to_bag' not found. 'add_to_bag' is not a valid view function or pattern name.
+ERROR 2024-08-11 00:08:25,904 basehttp 5246 139912804275776 "GET /products/1/ HTTP/1.1" 500 167136
+INFO 2024-08-11 00:10:16,384 autoreload 5246 139925939833920 /workspace/boutique_ado_v1/bag/urls.py changed, reloading.
+INFO 2024-08-11 00:10:16,708 autoreload 6972 139691693943872 Watching for file changes with StatReloader
+INFO 2024-08-11 00:10:53,212 autoreload 7050 140256928562240 Watching for file changes with StatReloader
+INFO 2024-08-11 00:12:33,527 autoreload 7050 140256928562240 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-11 00:12:33,818 autoreload 7164 139645692709952 Watching for file changes with StatReloader
+INFO 2024-08-11 00:12:39,744 basehttp 7164 139645636572736 "GET /products/1/ HTTP/1.1" 200 13778
+INFO 2024-08-11 00:12:50,523 basehttp 7164 139645558978112 "GET /products/1/ HTTP/1.1" 200 13778
+ERROR 2024-08-11 00:12:59,247 log 7164 139645550585408 Internal Server Error: /bag/add/1/
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 24, in add_to_bag
+    return redirect(redirect_url)
+           ^^^^^^^^
+NameError: name 'redirect' is not defined
+ERROR 2024-08-11 00:12:59,249 basehttp 7164 139645550585408 "POST /bag/add/1/ HTTP/1.1" 500 76726
+ERROR 2024-08-11 00:13:08,577 log 7164 139645542192704 Internal Server Error: /bag/add/1/
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 24, in add_to_bag
+    return redirect(redirect_url)
+           ^^^^^^^^
+NameError: name 'redirect' is not defined
+ERROR 2024-08-11 00:13:08,579 basehttp 7164 139645542192704 "POST /bag/add/1/ HTTP/1.1" 500 76726
+INFO 2024-08-11 00:13:56,080 autoreload 7164 139645692709952 /workspace/boutique_ado_v1/bag/urls.py changed, reloading.
+INFO 2024-08-11 00:13:56,384 autoreload 7375 139893938039872 Watching for file changes with StatReloader
+ERROR 2024-08-11 00:14:05,898 log 7375 139893881697856 Internal Server Error: /bag/add/1/
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 24, in add_to_bag
+    return redirect(redirect_url)
+           ^^^^^^^^
+NameError: name 'redirect' is not defined
+ERROR 2024-08-11 00:14:05,901 basehttp 7375 139893881697856 "POST /bag/add/1/ HTTP/1.1" 500 76726
+INFO 2024-08-11 00:15:36,879 autoreload 7375 139893938039872 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-11 00:15:37,177 autoreload 7520 140632212565056 Watching for file changes with StatReloader
+INFO 2024-08-11 00:15:43,713 basehttp 7520 140632156796480 "POST /bag/add/1/ HTTP/1.1" 302 0
+INFO 2024-08-11 00:15:43,957 basehttp 7520 140632148403776 "GET /products/1/ HTTP/1.1" 200 13778
+INFO 2024-08-11 00:15:51,520 basehttp 7520 140632138962496 "POST /bag/add/1/ HTTP/1.1" 302 0
+INFO 2024-08-11 00:15:51,739 basehttp 7520 140631926109760 "GET /products/1/ HTTP/1.1" 200 13778
+INFO 2024-08-11 00:15:55,289 basehttp 7520 140631917717056 "GET /bag/ HTTP/1.1" 200 11339
+INFO 2024-08-11 00:15:57,596 basehttp 7520 140631909324352 "GET /products/ HTTP/1.1" 200 386296
+INFO 2024-08-11 00:22:17,973 autoreload 8039 140198229978176 Watching for file changes with StatReloader
+INFO 2024-08-11 00:22:25,214 basehttp 8039 140198174258752 "GET /products/ HTTP/1.1" 200 386296
+INFO 2024-08-11 00:22:32,287 basehttp 8039 140198164817472 "GET /products/1/ HTTP/1.1" 200 13778
+INFO 2024-08-11 00:22:34,385 basehttp 8039 140198156424768 "POST /bag/add/1/ HTTP/1.1" 302 0
+INFO 2024-08-11 00:22:34,605 basehttp 8039 140198148032064 "GET /products/1/ HTTP/1.1" 200 13778
+INFO 2024-08-11 00:22:38,213 basehttp 8039 140197798868544 "GET /products/?category=activewear,essentials HTTP/1.1" 200 76947
+INFO 2024-08-11 00:22:41,796 basehttp 8039 140197790475840 "GET /products/?category=shirts HTTP/1.1" 200 54523
+INFO 2024-08-11 00:22:43,237 basehttp 8039 140197782083136 "GET /products/13/ HTTP/1.1" 200 13796
+INFO 2024-08-11 00:22:46,936 basehttp 8039 140197773690432 "POST /bag/add/13/ HTTP/1.1" 302 0
+INFO 2024-08-11 00:22:47,156 basehttp 8039 140197765297728 "GET /products/13/ HTTP/1.1" 200 13796
