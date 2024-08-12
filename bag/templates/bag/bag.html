@@ -6,10 +6,7 @@
         <div class="row">
             <div class="col"></div>
         </div>
-
     </div>
-    
-
 {% endblock %}
 
 {% block content %}
@@ -23,23 +20,22 @@
             </div>
         </div>
 
-        <div class="container mb-2">
-            <div class="row">
-                <div class="col">
-                    {% if bag_items %}
+        <div class="row">
+            <div class="col">
+                {% if bag_items %}
                     <div class="table-responsive rounded">
-                        <div class="table-responsive rounded">
-                            <table class="table table-sm table-borderless">
-                                <thead class="text-black">
-                                    <tr>
-                                        <th scope="col">Product Info</th>
-                                        <th scope="col"></th>
-                                        <th scope="col">Price</th>
-                                        <th scope="col">Qty</th>
-                                        <th scope="col">Subtotal</th>
-                                    </tr>
-                                </thead>
-                                {% for item in bag_items %}
+                        <table class="table table-sm table-borderless">
+                            <thead class="text-black">
+                                <tr>
+                                    <th scope="col">Product Info</th>
+                                    <th scope="col"></th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Qty</th>
+                                    <th scope="col">Subtotal</th>
+                                </tr>
+                            </thead>
+
+                            {% for item in bag_items %}
                                 <tr>
                                     <td class="p-3 w-25">
                                         <img class="img-fluid rounded" src="{{ item.product.image.url }}">
@@ -99,8 +95,7 @@
                         <span class="text-uppercase">Keep Shopping</span>
                     </a>
                 {% endif %}
-                </div>
             </div>
+        </div>
     </div>
-
 {% endblock %}
