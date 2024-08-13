@@ -1472,3 +1472,626 @@ INFO 2024-08-12 11:28:43,387 basehttp 8954 139819942393408 "GET /media/DP0716201
 INFO 2024-08-12 11:28:43,389 basehttp 8954 139819950786112 "GET /media/homepage_background_cropped.jpg HTTP/1.1" 200 1231185
 INFO 2024-08-12 11:28:55,481 basehttp 8954 139819934000704 "GET /bag/ HTTP/1.1" 200 31710
 INFO 2024-08-12 11:28:55,771 basehttp 8954 139819925608000 "GET /static/css/base.css HTTP/1.1" 200 2293
+INFO 2024-08-13 03:20:59,431 autoreload 2690 140048153074752 Watching for file changes with StatReloader
+INFO 2024-08-13 03:21:58,242 autoreload 2690 140048153074752 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-13 03:21:58,530 autoreload 2742 140111770524736 Watching for file changes with StatReloader
+INFO 2024-08-13 03:33:39,861 autoreload 2742 140111770524736 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-13 03:33:40,145 autoreload 3185 140253061553216 Watching for file changes with StatReloader
+INFO 2024-08-13 03:34:16,481 basehttp 3185 140253005346368 "GET / HTTP/1.1" 200 10802
+INFO 2024-08-13 03:34:16,919 basehttp 3185 140252995905088 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2024-08-13 03:34:18,170 basehttp 3185 140252987512384 "GET /media/homepage_background_cropped.jpg HTTP/1.1" 304 0
+ERROR 2024-08-13 03:34:45,966 log 3185 140252979119680 Internal Server Error: /bag/
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 7, in view_bag
+    return render(request, 'bag/bag.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+ERROR 2024-08-13 03:34:45,968 basehttp 3185 140252979119680 "GET /bag/ HTTP/1.1" 500 191122
+INFO 2024-08-13 03:36:09,756 basehttp 3185 140252626810432 "GET /bag/ HTTP/1.1" 200 31766
+INFO 2024-08-13 03:36:10,570 basehttp 3185 140252618417728 "GET /media/DP0709201205510679M.jpg HTTP/1.1" 304 0
+INFO 2024-08-13 03:36:10,584 basehttp 3185 140252610025024 "GET /media/DP0624201520422666C.jpg HTTP/1.1" 304 0
+INFO 2024-08-13 03:36:11,045 basehttp 3185 140252601632320 "GET /media/DP1115201210371197C.jpg HTTP/1.1" 304 0
+INFO 2024-08-13 03:36:11,061 basehttp 3185 140252593239616 "GET /media/DP0716201503423610M.jpg HTTP/1.1" 304 0
+WARNING 2024-08-13 03:36:19,067 log 3185 140252584846912 Not Found: /bag/POST
+WARNING 2024-08-13 03:36:19,068 basehttp 3185 140252584846912 "GET /bag/POST?csrfmiddlewaretoken=CVqi2NbEbS4o5hOw20V0d6cASayhyzZsSVMmFQiUOINutXUIhsq2UZC9feFahsUy&quantity=3&product_size= HTTP/1.1" 404 3329
+INFO 2024-08-13 03:37:39,319 autoreload 3185 140253061553216 /workspace/boutique_ado_v1/bag/urls.py changed, reloading.
+INFO 2024-08-13 03:37:39,622 autoreload 3377 139694128905280 Watching for file changes with StatReloader
+WARNING 2024-08-13 03:37:46,834 log 3377 139694006335040 Not Found: /bag/POST
+WARNING 2024-08-13 03:37:46,834 basehttp 3377 139694006335040 "GET /bag/POST?csrfmiddlewaretoken=CVqi2NbEbS4o5hOw20V0d6cASayhyzZsSVMmFQiUOINutXUIhsq2UZC9feFahsUy&quantity=3&product_size= HTTP/1.1" 404 3329
+WARNING 2024-08-13 03:45:51,788 log 3377 139693996893760 Not Found: /bag/POST
+WARNING 2024-08-13 03:45:51,788 basehttp 3377 139693996893760 "GET /bag/POST?csrfmiddlewaretoken=CVqi2NbEbS4o5hOw20V0d6cASayhyzZsSVMmFQiUOINutXUIhsq2UZC9feFahsUy&quantity=3&product_size= HTTP/1.1" 404 3329
+WARNING 2024-08-13 03:49:45,247 log 3377 139693988501056 Not Found: /bag/POST
+WARNING 2024-08-13 03:49:45,247 basehttp 3377 139693988501056 "GET /bag/POST?csrfmiddlewaretoken=CVqi2NbEbS4o5hOw20V0d6cASayhyzZsSVMmFQiUOINutXUIhsq2UZC9feFahsUy&quantity=3&product_size= HTTP/1.1" 404 3329
+INFO 2024-08-13 03:50:24,423 autoreload 3377 139694128905280 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-13 03:50:24,718 autoreload 3912 139915391564864 Watching for file changes with StatReloader
+WARNING 2024-08-13 03:50:28,199 log 3912 139915266356800 Not Found: /bag/POST
+WARNING 2024-08-13 03:50:28,199 basehttp 3912 139915266356800 "GET /bag/POST?csrfmiddlewaretoken=CVqi2NbEbS4o5hOw20V0d6cASayhyzZsSVMmFQiUOINutXUIhsq2UZC9feFahsUy&quantity=3&product_size= HTTP/1.1" 404 3329
+INFO 2024-08-13 03:52:02,133 autoreload 3912 139915391564864 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-13 03:52:02,429 autoreload 3989 140267062619200 Watching for file changes with StatReloader
+WARNING 2024-08-13 03:52:07,962 log 3989 140267006981696 Not Found: /bag/POST
+WARNING 2024-08-13 03:52:07,963 basehttp 3989 140267006981696 "GET /bag/POST?csrfmiddlewaretoken=CVqi2NbEbS4o5hOw20V0d6cASayhyzZsSVMmFQiUOINutXUIhsq2UZC9feFahsUy&quantity=3&product_size= HTTP/1.1" 404 3329
+INFO 2024-08-13 03:52:10,348 basehttp 3989 140266997540416 "GET /bag/ HTTP/1.1" 200 31227
+INFO 2024-08-13 03:56:56,258 basehttp 3989 140266786780736 "GET /bag/ HTTP/1.1" 200 30732
+INFO 2024-08-13 03:58:16,390 autoreload 3989 140267062619200 /workspace/boutique_ado_v1/bag/urls.py changed, reloading.
+INFO 2024-08-13 03:58:16,683 autoreload 4261 139943134022720 Watching for file changes with StatReloader
+INFO 2024-08-13 03:59:03,210 autoreload 4415 140253295422528 Watching for file changes with StatReloader
+INFO 2024-08-13 04:00:27,330 autoreload 4415 140253295422528 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-13 04:00:27,616 autoreload 4504 140563995827264 Watching for file changes with StatReloader
+INFO 2024-08-13 04:00:33,253 basehttp 4504 140563872478784 "GET /bag/ HTTP/1.1" 200 30732
+INFO 2024-08-13 04:00:56,960 basehttp 4504 140563863037504 "GET /bag/ HTTP/1.1" 200 30732
+INFO 2024-08-13 04:01:00,133 basehttp 4504 140563854644800 "GET /bag/ HTTP/1.1" 200 30732
+INFO 2024-08-13 04:06:17,556 basehttp 4504 140563846252096 "GET /bag/ HTTP/1.1" 200 31363
+INFO 2024-08-13 04:06:25,099 basehttp 4504 140563837859392 "POST /bag/adjust/1/ HTTP/1.1" 302 0
+INFO 2024-08-13 04:06:25,311 basehttp 4504 140563829466688 "GET /bag/ HTTP/1.1" 200 31363
+INFO 2024-08-13 04:06:25,554 basehttp 4504 140563821073984 "GET /bag/ HTTP/1.1" 200 31363
+INFO 2024-08-13 04:06:33,094 basehttp 4504 140563340850752 "POST /bag/adjust/6/ HTTP/1.1" 302 0
+INFO 2024-08-13 04:06:33,307 basehttp 4504 140563332458048 "GET /bag/ HTTP/1.1" 200 31363
+INFO 2024-08-13 04:06:33,559 basehttp 4504 140563324065344 "GET /bag/ HTTP/1.1" 200 31363
+ERROR 2024-08-13 04:06:42,208 log 4504 140563315672640 Internal Server Error: /bag/remove/1/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 82, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:06:42,213 basehttp 4504 140563315672640 "POST /bag/remove/1/ HTTP/1.1" 500 78446
+INFO 2024-08-13 04:06:42,454 basehttp 4504 140563307279936 "GET /bag/ HTTP/1.1" 200 31363
+ERROR 2024-08-13 04:06:45,054 log 4504 140563298887232 Internal Server Error: /bag/remove/1/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 82, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:06:45,059 basehttp 4504 140563298887232 "POST /bag/remove/1/ HTTP/1.1" 500 78446
+INFO 2024-08-13 04:06:45,332 basehttp 4504 140563290494528 "GET /bag/ HTTP/1.1" 200 31363
+ERROR 2024-08-13 04:06:48,604 log 4504 140562803979840 Internal Server Error: /bag/remove/1/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 82, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:06:48,609 basehttp 4504 140562803979840 "POST /bag/remove/1/ HTTP/1.1" 500 78446
+INFO 2024-08-13 04:06:48,893 basehttp 4504 140562795587136 "GET /bag/ HTTP/1.1" 200 31363
+INFO 2024-08-13 04:07:22,921 basehttp 4504 140562787194432 "POST /bag/adjust/1/ HTTP/1.1" 302 0
+INFO 2024-08-13 04:07:23,136 basehttp 4504 140562778801728 "GET /bag/ HTTP/1.1" 200 27562
+INFO 2024-08-13 04:07:23,355 basehttp 4504 140562770409024 "GET /bag/ HTTP/1.1" 200 27562
+INFO 2024-08-13 04:12:26,660 autoreload 4504 140563995827264 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-13 04:12:26,958 autoreload 5022 140046237342784 Watching for file changes with StatReloader
+ERROR 2024-08-13 04:12:32,477 log 5022 140046181070400 Internal Server Error: /bag/remove/6/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 77, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:12:32,482 basehttp 5022 140046181070400 "POST /bag/remove/6/ HTTP/1.1" 500 78397
+INFO 2024-08-13 04:12:32,903 basehttp 5022 140046171629120 "GET /bag/ HTTP/1.1" 200 27562
+ERROR 2024-08-13 04:12:38,373 log 5022 140046163236416 Internal Server Error: /bag/remove/6/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 77, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:12:38,378 basehttp 5022 140046163236416 "POST /bag/remove/6/ HTTP/1.1" 500 78397
+INFO 2024-08-13 04:12:38,654 basehttp 5022 140046154843712 "GET /bag/ HTTP/1.1" 200 27562
+ERROR 2024-08-13 04:12:40,917 log 5022 140046146451008 Internal Server Error: /bag/remove/6/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 77, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:12:40,922 basehttp 5022 140046146451008 "POST /bag/remove/6/ HTTP/1.1" 500 78397
+INFO 2024-08-13 04:12:41,200 basehttp 5022 140045797291584 "GET /bag/ HTTP/1.1" 200 27562
+ERROR 2024-08-13 04:12:46,908 log 5022 140045788898880 Internal Server Error: /bag/remove/6/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 77, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:12:46,913 basehttp 5022 140045788898880 "POST /bag/remove/6/ HTTP/1.1" 500 78397
+INFO 2024-08-13 04:12:47,155 basehttp 5022 140045780506176 "GET /bag/ HTTP/1.1" 200 27562
+ERROR 2024-08-13 04:19:33,124 log 5022 140045772113472 Internal Server Error: /bag/remove/6/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 77, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:19:33,128 basehttp 5022 140045772113472 "POST /bag/remove/6/ HTTP/1.1" 500 78397
+INFO 2024-08-13 04:19:33,413 basehttp 5022 140045763720768 "GET /bag/ HTTP/1.1" 200 27533
+INFO 2024-08-13 04:19:38,045 basehttp 5022 140045755328064 "POST /bag/adjust/6/ HTTP/1.1" 302 0
+INFO 2024-08-13 04:19:38,256 basehttp 5022 140045746935360 "GET /bag/ HTTP/1.1" 200 27533
+INFO 2024-08-13 04:19:38,507 basehttp 5022 140045193311808 "GET /bag/ HTTP/1.1" 200 27533
+ERROR 2024-08-13 04:19:39,207 log 5022 140045184919104 Internal Server Error: /bag/remove/6/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 77, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:19:39,211 basehttp 5022 140045184919104 "POST /bag/remove/6/ HTTP/1.1" 500 78397
+INFO 2024-08-13 04:19:39,448 basehttp 5022 140045176526400 "GET /bag/ HTTP/1.1" 200 27533
+INFO 2024-08-13 04:19:42,443 basehttp 5022 140045168133696 "POST /bag/adjust/6/ HTTP/1.1" 302 0
+INFO 2024-08-13 04:19:42,654 basehttp 5022 140045159740992 "GET /bag/ HTTP/1.1" 200 27533
+INFO 2024-08-13 04:19:42,895 basehttp 5022 140045151348288 "GET /bag/ HTTP/1.1" 200 27533
+INFO 2024-08-13 04:19:46,497 basehttp 5022 140045142955584 "POST /bag/adjust/6/ HTTP/1.1" 302 0
+INFO 2024-08-13 04:19:46,707 basehttp 5022 140044656440896 "GET /bag/ HTTP/1.1" 200 27533
+INFO 2024-08-13 04:19:46,945 basehttp 5022 140044648048192 "GET /bag/ HTTP/1.1" 200 27533
+ERROR 2024-08-13 04:19:48,726 log 5022 140044639655488 Internal Server Error: /bag/remove/6/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 77, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:19:48,731 basehttp 5022 140044639655488 "POST /bag/remove/6/ HTTP/1.1" 500 78397
+INFO 2024-08-13 04:19:49,008 basehttp 5022 140044631262784 "GET /bag/ HTTP/1.1" 200 27533
+INFO 2024-08-13 04:34:41,071 basehttp 5022 140044622870080 "GET /bag/ HTTP/1.1" 200 27533
+INFO 2024-08-13 04:34:46,616 basehttp 5022 140044614477376 "GET /products/ HTTP/1.1" 200 386095
+INFO 2024-08-13 04:34:46,919 basehttp 5022 140044119569984 "GET /media/DP0113201617034987M.jpg HTTP/1.1" 200 10820
+INFO 2024-08-13 04:34:46,919 basehttp 5022 140044606084672 "GET /media/DP1230201417013175M.jpg HTTP/1.1" 200 32693
+INFO 2024-08-13 04:34:46,993 basehttp 5022 140044111177280 "GET /media/DP0226201317034754M.jpg HTTP/1.1" 200 11845
+INFO 2024-08-13 04:34:46,993 basehttp 5022 140044102784576 "GET /media/DP0926201317071162M.jpg HTTP/1.1" 200 12040
+INFO 2024-08-13 04:34:47,563 basehttp 5022 140044085999168 "GET /media/0900631B81B0C2D9M.jpg HTTP/1.1" 200 10401
+INFO 2024-08-13 04:34:47,563 basehttp 5022 140044094391872 "GET /media/DP1020201517025390M.jpg HTTP/1.1" 200 19283
+INFO 2024-08-13 04:34:47,563 basehttp 5022 140044077606464 "GET /media/DP0418201317011949M.jpg HTTP/1.1" 200 24791
+INFO 2024-08-13 04:34:47,622 basehttp 5022 140043582699072 "GET /media/DP0430201405053680M.jpg HTTP/1.1" 200 20318
+INFO 2024-08-13 04:34:47,622 basehttp 5022 140044069213760 "GET /media/0900631B81C9387BM.jpg HTTP/1.1" 200 22915
+INFO 2024-08-13 04:34:47,623 basehttp 5022 140043574306368 "GET /media/DP0510201317010521M.jpg HTTP/1.1" 200 29381
+INFO 2024-08-13 04:34:47,623 basehttp 5022 140043557520960 "GET /media/DP0918201520303373C.jpg HTTP/1.1" 200 13389
+INFO 2024-08-13 04:34:47,664 basehttp 5022 140043565913664 "GET /media/DP1029201317111469M.jpg HTTP/1.1" 200 17312
+INFO 2024-08-13 04:34:47,795 basehttp 5022 140043549128256 "GET /media/DP1119201520340305C.jpg HTTP/1.1" 200 20791
+INFO 2024-08-13 04:34:47,807 basehttp 5022 140043540735552 "GET /media/DP0807201317072274M.jpg HTTP/1.1" 200 23239
+INFO 2024-08-13 04:34:47,807 basehttp 5022 140043532342848 "GET /media/DP0807201317072924M.jpg HTTP/1.1" 200 28198
+INFO 2024-08-13 04:34:47,847 basehttp 5022 140043045828160 "GET /media/DP0821201317103183M.jpg HTTP/1.1" 200 23098
+INFO 2024-08-13 04:34:47,855 basehttp 5022 140043037435456 "GET /media/0900631B81D676AEM.jpg HTTP/1.1" 200 19826
+INFO 2024-08-13 04:34:47,869 basehttp 5022 140043029042752 "GET /media/DP0917201317033820M.jpg HTTP/1.1" 200 18171
+INFO 2024-08-13 04:34:47,869 basehttp 5022 140043020650048 "GET /media/DP0927201317061305M.jpg HTTP/1.1" 200 19879
+INFO 2024-08-13 04:34:47,890 basehttp 5022 140043012257344 "GET /media/DP1023201317051585M.jpg HTTP/1.1" 200 6704
+INFO 2024-08-13 04:34:48,054 basehttp 5022 140043003864640 "GET /media/DP1028201517024563M.jpg HTTP/1.1" 200 11370
+INFO 2024-08-13 04:34:48,059 basehttp 5022 140042508957248 "GET /media/DP0422201517022488M.jpg HTTP/1.1" 200 54612
+INFO 2024-08-13 04:34:48,060 basehttp 5022 140042492171840 "GET /media/0900631B818ABCB9M.jpg HTTP/1.1" 200 20855
+INFO 2024-08-13 04:34:48,060 basehttp 5022 140042500564544 "GET /media/DP0113201417050002M.jpg HTTP/1.1" 200 55886
+INFO 2024-08-13 04:34:48,094 basehttp 5022 140042458601024 "GET /media/DP0422201617033665M.jpg HTTP/1.1" 200 13012
+INFO 2024-08-13 04:34:48,095 basehttp 5022 140042483779136 "GET /media/DP0219201502115503C.jpg HTTP/1.1" 200 22240
+INFO 2024-08-13 04:34:48,096 basehttp 5022 140042466993728 "GET /media/DP0610201317080834M.jpg HTTP/1.1" 200 22972
+INFO 2024-08-13 04:34:48,098 basehttp 5022 140042475386432 "GET /media/DP1108201317050996M.jpg HTTP/1.1" 200 26659
+INFO 2024-08-13 04:34:48,099 basehttp 5022 140041972086336 "GET /media/DP0213201417022274M.jpg HTTP/1.1" 200 12483
+INFO 2024-08-13 04:34:48,100 basehttp 5022 140041963693632 "GET /media/DP0828201517030241M.jpg HTTP/1.1" 200 47364
+INFO 2024-08-13 04:34:48,100 basehttp 5022 140041946908224 "GET /media/DP0430201405232442M.jpg HTTP/1.1" 200 12554
+INFO 2024-08-13 04:34:48,101 basehttp 5022 140041955300928 "GET /media/DP0430201405213832M.jpg HTTP/1.1" 200 14878
+INFO 2024-08-13 04:34:48,106 basehttp 5022 140041921730112 "GET /media/DP0323201517042926M.jpg HTTP/1.1" 200 12829
+INFO 2024-08-13 04:34:48,106 basehttp 5022 140041938515520 "GET /media/DP1220201417020921M.jpg HTTP/1.1" 200 25929
+INFO 2024-08-13 04:34:48,107 basehttp 5022 140041435215424 "GET /media/DP0113201523230512M.jpg HTTP/1.1" 200 14247
+INFO 2024-08-13 04:34:48,110 basehttp 5022 140041930122816 "GET /media/DP0414201520383920C.jpg HTTP/1.1" 200 27493
+INFO 2024-08-13 04:34:48,114 basehttp 5022 140042995471936 "GET /products/1/ HTTP/1.1" 200 18051
+INFO 2024-08-13 04:34:48,114 basehttp 5022 140041418430016 "GET /media/DP0731201517031510M.jpg HTTP/1.1" 200 30091
+INFO 2024-08-13 04:34:48,116 basehttp 5022 140041401644608 "GET /media/DP0710201517034239M.jpg HTTP/1.1" 200 12426
+INFO 2024-08-13 04:34:48,117 basehttp 5022 140041426822720 "GET /media/DP0428201617042837M.jpg HTTP/1.1" 200 52944
+INFO 2024-08-13 04:34:48,117 basehttp 5022 140041410037312 "GET /media/DP0721201517041500M.jpg HTTP/1.1" 200 29025
+INFO 2024-08-13 04:34:48,123 basehttp 5022 140040898344512 "GET /media/DP0908201517020936M.jpg HTTP/1.1" 200 10281
+INFO 2024-08-13 04:34:48,125 basehttp 5022 140041384859200 "GET /media/DP0828201517024772M.jpg HTTP/1.1" 200 43218
+INFO 2024-08-13 04:34:48,125 basehttp 5022 140040889951808 "GET /media/DP0930201517050189M.jpg HTTP/1.1" 200 22139
+INFO 2024-08-13 04:34:48,125 basehttp 5022 140040881559104 "GET /media/DP0810201517010458M.jpg HTTP/1.1" 200 23886
+INFO 2024-08-13 04:34:48,125 basehttp 5022 140041393251904 "GET /media/DP0731201517024285M.jpg HTTP/1.1" 200 62221
+INFO 2024-08-13 04:34:48,126 basehttp 5022 140040864773696 "GET /media/DP0903201517023529M.jpg HTTP/1.1" 200 24651
+INFO 2024-08-13 04:34:48,126 basehttp 5022 140040847988288 "GET /media/DP0921201517052786M.jpg HTTP/1.1" 200 19930
+INFO 2024-08-13 04:34:48,126 basehttp 5022 140040873166400 "GET /media/DP0805201517023421M.jpg HTTP/1.1" 200 25411
+INFO 2024-08-13 04:34:48,126 basehttp 5022 140040856380992 "GET /media/DP0820201517013830M.jpg HTTP/1.1" 200 30563
+INFO 2024-08-13 04:34:48,312 basehttp 5022 140040361473600 "GET /media/DP0917201520473680C.jpg HTTP/1.1" 200 44607
+INFO 2024-08-13 04:34:49,079 basehttp 5022 140040353080896 "GET /media/DP0702201517033643M.jpg HTTP/1.1" 200 13733
+INFO 2024-08-13 04:34:49,081 basehttp 5022 140040327902784 "GET /media/DP1017201420511297C.jpg HTTP/1.1" 200 22403
+INFO 2024-08-13 04:34:49,083 basehttp 5022 140040336295488 "GET /media/0900631B8140782DM.jpg HTTP/1.1" 200 32586
+INFO 2024-08-13 04:34:49,083 basehttp 5022 140040344688192 "GET /media/DP0807201517015600M.jpg HTTP/1.1" 200 33626
+INFO 2024-08-13 04:34:49,085 basehttp 5022 140040319510080 "GET /media/DP0430201405113681M.jpg HTTP/1.1" 200 13569
+INFO 2024-08-13 04:34:49,087 basehttp 5022 140039824602688 "GET /media/DP0915201413433903C.jpg HTTP/1.1" 200 16260
+INFO 2024-08-13 04:34:49,090 basehttp 5022 140040311117376 "GET /media/DP0702201517031050M.jpg HTTP/1.1" 200 30087
+INFO 2024-08-13 04:34:49,091 basehttp 5022 140039816209984 "GET /media/DP0715201417203832M.jpg HTTP/1.1" 200 27998
+INFO 2024-08-13 04:34:49,091 basehttp 5022 140039791031872 "GET /media/DP0724201517031934M.jpg HTTP/1.1" 200 25628
+INFO 2024-08-13 04:34:49,091 basehttp 5022 140039807817280 "GET /media/DP0515201517012588M.jpg HTTP/1.1" 200 22298
+INFO 2024-08-13 04:34:49,092 basehttp 5022 140039799424576 "GET /media/DP0714201504201760M.jpg HTTP/1.1" 200 49695
+INFO 2024-08-13 04:34:49,092 basehttp 5022 140039774246464 "GET /media/DP0716201503421212M.jpg HTTP/1.1" 200 17117
+INFO 2024-08-13 04:34:49,092 basehttp 5022 140039782639168 "GET /media/DP0204201517030626M.jpg HTTP/1.1" 200 53869
+INFO 2024-08-13 04:34:49,144 basehttp 5022 140038717290048 "GET /media/DP0325201617032503M.jpg HTTP/1.1" 200 20430
+INFO 2024-08-13 04:34:49,144 basehttp 5022 140038213989952 "GET /media/DP0726201317024762M.jpg HTTP/1.1" 200 22144
+INFO 2024-08-13 04:34:49,145 basehttp 5022 140038700504640 "GET /media/DP0224201620571013C.jpg HTTP/1.1" 200 25535
+INFO 2024-08-13 04:34:49,196 basehttp 5022 140037651940928 "GET /media/DP0414201617030734M.jpg HTTP/1.1" 200 15637
+INFO 2024-08-13 04:34:49,196 basehttp 5022 140039254160960 "GET /media/DP0322201617031125M.jpg HTTP/1.1" 200 12218
+INFO 2024-08-13 04:34:49,196 basehttp 5022 140039237375552 "GET /media/DP0216201620424511C.jpg HTTP/1.1" 200 16426
+INFO 2024-08-13 04:34:49,197 basehttp 5022 140038708897344 "GET /media/DP1104201517020304M.jpg HTTP/1.1" 200 22368
+INFO 2024-08-13 04:34:49,246 basehttp 5022 140038734075456 "GET /media/DP0216201620412947C.jpg HTTP/1.1" 200 15818
+INFO 2024-08-13 04:34:49,247 basehttp 5022 140038742468160 "GET /media/DP0304201620452035C.jpg HTTP/1.1" 200 13732
+INFO 2024-08-13 04:34:49,248 basehttp 5022 140038180419136 "GET /media/DP0226201617023618M.jpg HTTP/1.1" 200 25258
+INFO 2024-08-13 04:34:49,249 basehttp 5022 140038750860864 "GET /media/DP1228201517142050M.jpg HTTP/1.1" 200 15909
+INFO 2024-08-13 04:34:49,249 basehttp 5022 140037131855424 "GET /media/DP0105201617024447M.jpg HTTP/1.1" 200 14173
+INFO 2024-08-13 04:34:49,249 basehttp 5022 140038172026432 "GET /media/DP0404201617034330M.jpg HTTP/1.1" 200 12330
+INFO 2024-08-13 04:34:49,249 basehttp 5022 140039262553664 "GET /media/DP1208201517020379M.jpg HTTP/1.1" 200 21928
+INFO 2024-08-13 04:34:49,250 basehttp 5022 140037643548224 "GET /media/DP0411201617053625M.jpg HTTP/1.1" 200 17377
+INFO 2024-08-13 04:34:49,250 basehttp 5022 140039245768256 "GET /media/DP1104201517021565M.jpg HTTP/1.1" 200 12991
+INFO 2024-08-13 04:34:49,250 basehttp 5022 140038197204544 "GET /media/DP0404201617034496M.jpg HTTP/1.1" 200 22995
+INFO 2024-08-13 04:34:49,251 basehttp 5022 140039287731776 "GET /media/DP0107201603172435M.jpg HTTP/1.1" 200 31535
+INFO 2024-08-13 04:34:49,251 basehttp 5022 140038163633728 "GET /media/DP1105201517015618M.jpg HTTP/1.1" 200 25735
+INFO 2024-08-13 04:34:49,251 basehttp 5022 140038725682752 "GET /media/DP0429201617074742M.jpg HTTP/1.1" 200 40456
+INFO 2024-08-13 04:34:49,252 basehttp 5022 140037626762816 "GET /media/0900631B81E48245M.jpg HTTP/1.1" 200 40204
+INFO 2024-08-13 04:34:49,252 basehttp 5022 140037635155520 "GET /media/DP0405201620454892C.jpg HTTP/1.1" 200 19099
+INFO 2024-08-13 04:34:49,252 basehttp 5022 140038205597248 "GET /media/DP0421201617033514M.jpg HTTP/1.1" 200 17008
+INFO 2024-08-13 04:34:49,253 basehttp 5022 140039270946368 "GET /media/DP0408201617014664M.jpg HTTP/1.1" 200 43444
+INFO 2024-08-13 04:34:49,254 basehttp 5022 140037677119040 "GET /media/DP1021201517031368M.jpg HTTP/1.1" 200 48416
+INFO 2024-08-13 04:34:49,254 basehttp 5022 140037660333632 "GET /media/DP0226201620313565C.jpg HTTP/1.1" 200 14194
+INFO 2024-08-13 04:34:49,255 basehttp 5022 140039279339072 "GET /media/DP0217201617074443M.jpg HTTP/1.1" 200 27035
+INFO 2024-08-13 04:34:49,255 basehttp 5022 140038188811840 "GET /media/DP0325201617032536M.jpg HTTP/1.1" 200 28599
+INFO 2024-08-13 04:34:49,256 basehttp 5022 140037668726336 "GET /media/DP0413201617045423M.jpg HTTP/1.1" 200 29091
+INFO 2024-08-13 04:34:49,256 basehttp 5022 140037140248128 "GET /media/DP1022201517023782M.jpg HTTP/1.1" 200 30812
+INFO 2024-08-13 04:34:49,257 basehttp 5022 140037115070016 "GET /media/DP0217201617084849M.jpg HTTP/1.1" 200 30919
+INFO 2024-08-13 04:34:49,257 basehttp 5022 140037123462720 "GET /media/DP0929201502575389M.jpg HTTP/1.1" 200 39942
+INFO 2024-08-13 04:34:49,259 basehttp 5022 140037106677312 "GET /media/DP1030201517035843M.jpg HTTP/1.1" 200 27666
+INFO 2024-08-13 04:34:49,260 basehttp 5022 140037089891904 "GET /media/DP0722201517022951M.jpg HTTP/1.1" 200 18514
+INFO 2024-08-13 04:34:49,261 basehttp 5022 140037098284608 "GET /media/DP1216201517030998M.jpg HTTP/1.1" 200 17336
+INFO 2024-08-13 04:34:49,262 basehttp 5022 140036603377216 "GET /media/DP1106201517012318M.jpg HTTP/1.1" 200 30519
+INFO 2024-08-13 04:34:49,262 basehttp 5022 140036586591808 "GET /media/DP0218201621532296C.jpg HTTP/1.1" 200 29635
+INFO 2024-08-13 04:34:49,263 basehttp 5022 140036594984512 "GET /media/DP0413201617045408M.jpg HTTP/1.1" 200 44661
+INFO 2024-08-13 04:34:49,290 basehttp 5022 140036578199104 "GET /media/DP0224201517023517M.jpg HTTP/1.1" 200 20821
+INFO 2024-08-13 04:34:49,291 basehttp 5022 140036561413696 "GET /media/DP1019201520531375C.jpg HTTP/1.1" 200 22671
+INFO 2024-08-13 04:34:49,292 basehttp 5022 140036569806400 "GET /media/DP0401201417083996M.jpg HTTP/1.1" 200 34616
+INFO 2024-08-13 04:34:49,292 basehttp 5022 140036553020992 "GET /media/DP0526201623053167C.jpg HTTP/1.1" 200 18433
+INFO 2024-08-13 04:34:49,293 basehttp 5022 140036066506304 "GET /media/DP0526201517022624M.jpg HTTP/1.1" 200 17838
+INFO 2024-08-13 04:34:49,295 basehttp 5022 140036049720896 "GET /media/DP0724201517024000M.jpg HTTP/1.1" 200 28254
+INFO 2024-08-13 04:34:49,298 basehttp 5022 140036058113600 "GET /media/0900631B8142A3AFM.jpg HTTP/1.1" 200 25631
+INFO 2024-08-13 04:34:49,298 basehttp 5022 140036032935488 "GET /media/DP1015201417131329M.jpg HTTP/1.1" 200 35237
+INFO 2024-08-13 04:34:49,299 basehttp 5022 140036016150080 "GET /media/DP0612201517032350M.jpg HTTP/1.1" 200 12927
+INFO 2024-08-13 04:34:49,299 basehttp 5022 140036041328192 "GET /media/DP0320201517010207M.jpg HTTP/1.1" 200 24451
+INFO 2024-08-13 04:34:49,301 basehttp 5022 140035529635392 "GET /media/DP0608201517025373M.jpg HTTP/1.1" 200 17267
+INFO 2024-08-13 04:34:49,301 basehttp 5022 140036024542784 "GET /media/DP0831201520432399C.jpg HTTP/1.1" 200 22228
+INFO 2024-08-13 04:34:49,304 basehttp 5022 140035521242688 "GET /media/DP0805201520415923C.jpg HTTP/1.1" 200 15406
+INFO 2024-08-13 04:34:49,305 basehttp 5022 140035512849984 "GET /media/DP1124201417012025M.jpg HTTP/1.1" 200 24137
+INFO 2024-08-13 04:34:49,308 basehttp 5022 140035487671872 "GET /media/DP0608201517035688M.jpg HTTP/1.1" 200 19549
+INFO 2024-08-13 04:34:49,308 basehttp 5022 140035479279168 "GET /media/DP0608201517035763M.jpg HTTP/1.1" 200 17474
+INFO 2024-08-13 04:34:49,309 basehttp 5022 140035504457280 "GET /media/DP0527201520374912C.jpg HTTP/1.1" 200 41018
+INFO 2024-08-13 04:34:49,309 basehttp 5022 140035496064576 "GET /media/DP0722201417110136M.jpg HTTP/1.1" 200 33268
+INFO 2024-08-13 04:34:49,310 basehttp 5022 140034967586368 "GET /media/DP0401201517030651M.jpg HTTP/1.1" 200 18188
+INFO 2024-08-13 04:34:49,310 basehttp 5022 140034992764480 "GET /media/DP1008201517035763M.jpg HTTP/1.1" 200 26743
+INFO 2024-08-13 04:34:49,310 basehttp 5022 140034984371776 "GET /media/DP0302201517030242M.jpg HTTP/1.1" 200 50778
+INFO 2024-08-13 04:34:49,311 basehttp 5022 140034975979072 "GET /media/DP0716201517033520M.jpg HTTP/1.1" 200 37816
+INFO 2024-08-13 04:34:49,353 basehttp 5022 140034950800960 "GET /media/DP0310201620422443C.jpg HTTP/1.1" 200 17196
+INFO 2024-08-13 04:34:49,355 basehttp 5022 140034942408256 "GET /media/DP1124201517014225M.jpg HTTP/1.1" 200 21230
+INFO 2024-08-13 04:34:49,357 basehttp 5022 140034959193664 "GET /media/DP0226201617024158M.jpg HTTP/1.1" 200 31731
+INFO 2024-08-13 04:34:49,357 basehttp 5022 140034447500864 "GET /media/0900631B81D6766FM.jpg HTTP/1.1" 200 22569
+INFO 2024-08-13 04:34:49,359 basehttp 5022 140034455893568 "GET /media/DP1218201517095959M.jpg HTTP/1.1" 200 37894
+INFO 2024-08-13 04:34:49,359 basehttp 5022 140034439108160 "GET /media/DP1016201517091568M.jpg HTTP/1.1" 200 24590
+INFO 2024-08-13 04:34:49,360 basehttp 5022 140034430715456 "GET /media/DP1223201517040398M.jpg HTTP/1.1" 200 16984
+INFO 2024-08-13 04:34:49,362 basehttp 5022 140034422322752 "GET /media/DP1002201517022007M.jpg HTTP/1.1" 200 40147
+INFO 2024-08-13 04:34:49,362 basehttp 5022 140033919022656 "GET /media/DP0316201621115243C.jpg HTTP/1.1" 200 16547
+INFO 2024-08-13 04:34:49,363 basehttp 5022 140034413930048 "GET /media/DP0322201617031084M.jpg HTTP/1.1" 200 20115
+INFO 2024-08-13 04:34:49,366 basehttp 5022 140033910629952 "GET /media/DP1202201502000682M.jpg HTTP/1.1" 200 16816
+INFO 2024-08-13 04:34:49,367 basehttp 5022 140034405537344 "GET /media/DP1222201517041287M.jpg HTTP/1.1" 200 33474
+INFO 2024-08-13 04:34:49,367 basehttp 5022 140033885451840 "GET /media/DP1202201517023245M.jpg HTTP/1.1" 200 14425
+INFO 2024-08-13 04:34:49,367 basehttp 5022 140033877059136 "GET /media/DP0309201620474626C.jpg HTTP/1.1" 200 23034
+INFO 2024-08-13 04:34:49,368 basehttp 5022 140033893844544 "GET /media/DP1112201517050819M.jpg HTTP/1.1" 200 34640
+INFO 2024-08-13 04:34:49,368 basehttp 5022 140033902237248 "GET /media/DP0421201617033561M.jpg HTTP/1.1" 200 26499
+INFO 2024-08-13 04:34:49,392 basehttp 5022 140033868666432 "GET /media/DP0119201620405230C.jpg HTTP/1.1" 200 29415
+INFO 2024-08-13 04:34:49,398 basehttp 5022 140033373759040 "GET /media/DP1016201517075816M.jpg HTTP/1.1" 200 20916
+INFO 2024-08-13 04:34:49,398 basehttp 5022 140033382151744 "GET /media/DP0407201620401180C.jpg HTTP/1.1" 200 24489
+INFO 2024-08-13 04:34:49,398 basehttp 5022 140033365366336 "GET /media/DP0126201620545687C.jpg HTTP/1.1" 200 41150
+INFO 2024-08-13 04:34:49,497 basehttp 5022 140033340188224 "GET /media/DP0717201517041911M.jpg HTTP/1.1" 200 23846
+INFO 2024-08-13 04:34:49,497 basehttp 5022 140033356973632 "GET /media/DP0623201517030686M.jpg HTTP/1.1" 200 18414
+INFO 2024-08-13 04:34:49,499 basehttp 5022 140033348580928 "GET /media/DP0919201417043014M.jpg HTTP/1.1" 200 18820
+INFO 2024-08-13 04:34:49,499 basehttp 5022 140033331795520 "GET /media/DP0519201517025089M.jpg HTTP/1.1" 200 28224
+INFO 2024-08-13 04:34:49,500 basehttp 5022 140032845280832 "GET /media/DP0403201417141773M.jpg HTTP/1.1" 200 8777
+INFO 2024-08-13 04:34:49,502 basehttp 5022 140032828495424 "GET /media/DP0608201517035747M.jpg HTTP/1.1" 200 15814
+INFO 2024-08-13 04:34:49,503 basehttp 5022 140032836888128 "GET /media/DP0408201517021489M.jpg HTTP/1.1" 200 35007
+INFO 2024-08-13 04:34:49,504 basehttp 5022 140032820102720 "GET /media/DP0421201520311379C.jpg HTTP/1.1" 200 20445
+INFO 2024-08-13 04:34:49,505 basehttp 5022 140032811710016 "GET /media/DP1202201412542357M.jpg HTTP/1.1" 200 65253
+INFO 2024-08-13 04:34:49,505 basehttp 5022 140032803317312 "GET /media/DP0623201517030671M.jpg HTTP/1.1" 200 18188
+INFO 2024-08-13 04:34:49,505 basehttp 5022 140032794924608 "GET /media/DP0515201517013144M.jpg HTTP/1.1" 200 29098
+INFO 2024-08-13 04:34:49,560 basehttp 5022 140032308409920 "GET /media/DP1109201517012575M.jpg HTTP/1.1" 200 27454
+INFO 2024-08-13 04:34:49,561 basehttp 5022 140032291624512 "GET /media/DP1202201517021959M.jpg HTTP/1.1" 200 19010
+INFO 2024-08-13 04:34:49,562 basehttp 5022 140032283231808 "GET /media/DP1216201517031308M.jpg HTTP/1.1" 200 12626
+INFO 2024-08-13 04:34:49,564 basehttp 5022 140032300017216 "GET /media/DP1014201517031451M.jpg HTTP/1.1" 200 48670
+INFO 2024-08-13 04:34:49,566 basehttp 5022 140032266446400 "GET /media/DP1119201517043586M.jpg HTTP/1.1" 200 24752
+INFO 2024-08-13 04:34:49,567 basehttp 5022 140032258053696 "GET /media/DP1211201503400830M.jpg HTTP/1.1" 200 15749
+INFO 2024-08-13 04:34:49,567 basehttp 5022 140031754753600 "GET /media/DP1230201520420777C.jpg HTTP/1.1" 200 10941
+INFO 2024-08-13 04:34:49,567 basehttp 5022 140031771539008 "GET /media/DP0224201617043146M.jpg HTTP/1.1" 200 20404
+INFO 2024-08-13 04:34:49,567 basehttp 5022 140032274839104 "GET /media/DP1014201517033744M.jpg HTTP/1.1" 200 38680
+INFO 2024-08-13 04:34:49,568 basehttp 5022 140031763146304 "GET /media/DP0921201517052807M.jpg HTTP/1.1" 200 38341
+INFO 2024-08-13 04:36:19,119 basehttp 5022 140031737968192 "GET /bag/ HTTP/1.1" 200 27533
+ERROR 2024-08-13 04:36:24,225 log 5022 140031746360896 Internal Server Error: /bag/remove/6/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 77, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:36:24,230 basehttp 5022 140031746360896 "POST /bag/remove/6/ HTTP/1.1" 500 78397
+INFO 2024-08-13 04:36:24,454 basehttp 5022 140031729575488 "GET /bag/ HTTP/1.1" 200 27533
+ERROR 2024-08-13 04:36:26,306 log 5022 140031721182784 Internal Server Error: /bag/remove/6/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 77, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:36:26,311 basehttp 5022 140031721182784 "POST /bag/remove/6/ HTTP/1.1" 500 78397
+INFO 2024-08-13 04:36:26,552 basehttp 5022 140031234668096 "GET /bag/ HTTP/1.1" 200 27533
+ERROR 2024-08-13 04:36:30,132 log 5022 140031226275392 Internal Server Error: /bag/remove/6/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 77, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:36:30,137 basehttp 5022 140031226275392 "POST /bag/remove/6/ HTTP/1.1" 500 78397
+INFO 2024-08-13 04:36:30,357 basehttp 5022 140031217882688 "GET /bag/ HTTP/1.1" 200 27533
+ERROR 2024-08-13 04:36:31,973 log 5022 140031209489984 Internal Server Error: /bag/remove/6/
+Traceback (most recent call last):
+  File "/workspace/boutique_ado_v1/bag/views.py", line 77, in remove_from_bag
+    return HttpResponse(status=200)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 79, in remove_from_bag
+    return HttpResponse(status=500)
+           ^^^^^^^^^^^^
+NameError: name 'HttpResponse' is not defined. Did you mean: 'JsonResponse'?
+ERROR 2024-08-13 04:36:31,977 basehttp 5022 140031209489984 "POST /bag/remove/6/ HTTP/1.1" 500 78397
+INFO 2024-08-13 04:36:32,248 basehttp 5022 140031201097280 "GET /bag/ HTTP/1.1" 200 27533
+INFO 2024-08-13 05:26:01,119 autoreload 8165 140438464420928 Watching for file changes with StatReloader
+INFO 2024-08-13 05:26:08,062 basehttp 8165 140438408263232 "GET / HTTP/1.1" 200 10773
+INFO 2024-08-13 05:26:08,372 basehttp 8165 140438399870528 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2024-08-13 05:26:10,799 basehttp 8165 140438182819392 "GET /bag/ HTTP/1.1" 200 27533
+INFO 2024-08-13 05:26:20,257 basehttp 8165 140438174426688 "POST /bag/adjust/4/ HTTP/1.1" 302 0
+INFO 2024-08-13 05:26:20,455 basehttp 8165 140438166033984 "GET /bag/ HTTP/1.1" 200 27533
+INFO 2024-08-13 05:26:20,662 basehttp 8165 140438157641280 "GET /bag/ HTTP/1.1" 200 27533

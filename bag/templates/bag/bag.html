@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 {% load static %}
+{% load bag_tools %}
 
 {% block page_header %}
-    <!-- Header container -->
     <div class="container header-container">
         <div class="row">
             <div class="col"></div>
@@ -11,10 +11,8 @@
 {% endblock %}
 
 {% block content %}
-    <!-- Overlay for background -->
     <div class="overlay"></div>
     <div class="container mb-2">
-        <!-- Shopping Bag Title -->
         <div class="row">
             <div class="col">
                 <hr>
@@ -26,10 +24,8 @@
         <div class="row">
             <div class="col">
                 {% if bag_items %}
-                    <!-- Shopping Bag Table -->
                     <div class="table-responsive rounded">
                         <table class="table table-sm table-borderless">
-                            <!-- Table Header -->
                             <thead class="text-black">
                                 <tr>
                                     <th scope="col">Product Info</th>
@@ -40,26 +36,21 @@
                                 </tr>
                             </thead>
 
-                            <!-- Table Body: List of Items in the Bag -->
                             {% for item in bag_items %}
                                 <tr>
-                                    <!-- Product Image -->
                                     <td class="p-3 w-25">
                                         <img class="img-fluid rounded" src="{{ item.product.image.url }}">
                                     </td>
-                                    <!-- Product Details -->
                                     <td class="py-3">
                                         <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                                         <p class="my-0"><strong>Size: </strong>{% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
                                         <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
                                     </td>
-                                    <!-- Price -->
                                     <td class="py-3">
-                                        <p class="my-0">${{ item.product.price }}</p>
+                                        <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
                                     </td>
-                                    <!-- Quantity -->
                                     <td class="py-3 w-25">
-                                        <form class= "form update-form" action="POST" action="">
+                                        <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
                                             {% csrf_token %}
                                             <div class="form-group">
                                                 <div class="input-group">
@@ -73,8 +64,7 @@
                                                     </div>
                                                     <input class="form-control form-control-sm qty_input" type="number"
                                                         name="quantity" value="{{ item.quantity }}" min="1" max="99"
-                                                        data-item_id="{{ item.item_id }}"
-                                                        id="id_qty_{{ item.item_id }}">
+                                                        data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
                                                     <div class="input-group-append">
                                                         <button class="increment-qty btn btn-sm btn-black rounded-0"
                                                             data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
@@ -89,16 +79,14 @@
                                                 </div>
                                             </div>
                                         </form>
-                                        <a class="update-link text-info"><small>Update</small></a>
-                                        <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-size="{{ item.size }}"><small>Remove</small></a>
+                                        <a class="update-link text-info" data-item_id="{{ item.item_id }}"><small>Update</small></a>
+                                        <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
                                     </td>
-                                    <!-- Subtotal -->
                                     <td class="py-3">
                                         <p class="my-0">${{ item.product.price }}</p>
                                     </td>
                                 </tr>
                             {% endfor %}
-                            <!-- Order Summary -->
                             <tr>
                                 <td colspan="5" class="pt-5 text-right">
                                     <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
@@ -111,7 +99,6 @@
                                     {% endif %}
                                 </td>
                             </tr>
-                            <!-- Action Buttons -->
                             <tr>
                                 <td colspan="5" class="text-right">
                                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
@@ -131,7 +118,6 @@
                         </table>
                     </div>
                 {% else %}
-                    <!-- Empty Bag Message -->
                     <p class="lead mb-5">Your bag is empty.</p>
                     <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">
@@ -150,26 +136,62 @@
 {% include 'products/includes/quantity_input_script.html' %}
 
 <script type="text/javascript">
-    
     // Update quantity on click
     $('.update-link').click(function(e) {
+        e.preventDefault();
         var form = $(this).prev('.update-form');
-        form.submit();
-    })
+        var itemId = $(this).data('item_id');
+        var url = `/bag/adjust/${itemId}/`;
+        var quantity = form.find('.qty_input').val();
+        var data = {
+            'csrfmiddlewaretoken': form.find('input[name="csrfmiddlewaretoken"]').val(),
+            'quantity': quantity
+        };
+        
+        if (form.find('input[name="product_size"]').length) {
+            data['product_size'] = form.find('input[name="product_size"]').val();
+        }
+
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'X-CSRFToken': data.csrfmiddlewaretoken
+            },
+            body: new URLSearchParams(data)
+        })
+        .then(response => {
+            location.reload();
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
 
     // Remove item and reload on click
     $('.remove-item').click(function(e) {
-        var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
-        var size = $(this).data('size');
-        var url = `/bag/remove/${itemId}`;
-        var data = {'csrfmiddlewaretoken': csrfToken, 'size': size};
+        var size = $(this).data('product_size');
+        var url = `/bag/remove/${itemId}/`;
+        var data = {
+            'csrfmiddlewaretoken': "{{ csrf_token }}",
+            'product_size': size
+        };
 
-        $.post(url, data)
-         .done(function() {
-             location.reload();
-         });
-    })
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'X-CSRFToken': data.csrfmiddlewaretoken
+            },
+            body: new URLSearchParams(data)
+        })
+        .then(response => {
+            location.reload();
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
 </script>
-
 {% endblock %}
