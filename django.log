@@ -2391,3 +2391,29 @@ INFO 2024-08-14 22:10:51,706 autoreload 2771 139905371282496 Watching for file c
 INFO 2024-08-14 22:10:57,571 basehttp 2771 139905315370560 "POST /bag/add/2/ HTTP/1.1" 302 0
 INFO 2024-08-14 22:10:57,788 basehttp 2771 139905306977856 "GET /products/2/ HTTP/1.1" 200 20671
 INFO 2024-08-14 22:10:58,058 basehttp 2771 139905297536576 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2024-08-14 22:28:51,505 autoreload 2771 139905371282496 /workspace/boutique_ado_v1/boutique_ado/settings.py changed, reloading.
+INFO 2024-08-14 22:28:51,808 autoreload 3902 139999456955456 Watching for file changes with StatReloader
+INFO 2024-08-14 22:30:10,961 autoreload 3902 139999456955456 /workspace/boutique_ado_v1/checkout/models.py changed, reloading.
+INFO 2024-08-14 22:30:11,258 autoreload 3992 139800752118848 Watching for file changes with StatReloader
+INFO 2024-08-14 22:31:15,220 autoreload 3992 139800752118848 /workspace/boutique_ado_v1/checkout/models.py changed, reloading.
+INFO 2024-08-14 22:31:15,507 autoreload 4042 140391395941440 Watching for file changes with StatReloader
+INFO 2024-08-14 22:31:25,710 autoreload 4042 140391395941440 /workspace/boutique_ado_v1/checkout/models.py changed, reloading.
+INFO 2024-08-14 22:31:25,992 autoreload 4060 140418970549312 Watching for file changes with StatReloader
+INFO 2024-08-14 22:34:11,145 autoreload 4060 140418970549312 /workspace/boutique_ado_v1/checkout/models.py changed, reloading.
+INFO 2024-08-14 22:34:11,419 autoreload 4305 139852663888960 Watching for file changes with StatReloader
+INFO 2024-08-14 22:34:58,849 autoreload 4305 139852663888960 /workspace/boutique_ado_v1/checkout/models.py changed, reloading.
+INFO 2024-08-14 22:34:59,125 autoreload 4345 140191065615424 Watching for file changes with StatReloader
+INFO 2024-08-14 22:35:24,422 autoreload 4345 140191065615424 /workspace/boutique_ado_v1/checkout/models.py changed, reloading.
+INFO 2024-08-14 22:35:24,698 autoreload 4375 140151171800128 Watching for file changes with StatReloader
+INFO 2024-08-14 22:36:02,066 autoreload 4375 140151171800128 /workspace/boutique_ado_v1/checkout/models.py changed, reloading.
+INFO 2024-08-14 22:36:02,340 autoreload 4408 140440455031872 Watching for file changes with StatReloader
+INFO 2024-08-14 22:36:52,791 autoreload 4408 140440455031872 /workspace/boutique_ado_v1/checkout/models.py changed, reloading.
+INFO 2024-08-14 22:36:53,074 autoreload 4453 140479426710592 Watching for file changes with StatReloader
+INFO 2024-08-14 22:37:12,334 autoreload 4453 140479426710592 /workspace/boutique_ado_v1/checkout/models.py changed, reloading.
+INFO 2024-08-14 22:37:12,635 autoreload 4474 139974002527296 Watching for file changes with StatReloader
+INFO 2024-08-14 22:39:10,501 autoreload 4474 139974002527296 /workspace/boutique_ado_v1/checkout/models.py changed, reloading.
+INFO 2024-08-14 22:39:10,777 autoreload 4560 140117811354688 Watching for file changes with StatReloader
+INFO 2024-08-14 22:40:49,521 autoreload 4560 140117811354688 /workspace/boutique_ado_v1/checkout/models.py changed, reloading.
+INFO 2024-08-14 22:40:49,795 autoreload 4676 140667857640512 Watching for file changes with StatReloader
+INFO 2024-08-14 22:43:41,983 autoreload 4676 140667857640512 /workspace/boutique_ado_v1/checkout/models.py changed, reloading.
+INFO 2024-08-14 22:43:42,291 autoreload 4790 139989176925248 Watching for file changes with StatReloader
