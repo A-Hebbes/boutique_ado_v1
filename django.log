@@ -2304,3 +2304,49 @@ INFO 2024-08-14 08:57:16,357 basehttp 3022 140605728474688 "GET /media/DP0119201
 INFO 2024-08-14 08:57:16,358 basehttp 3022 140605720081984 "GET /media/DP0316201621115243C.jpg HTTP/1.1" 200 16547
 INFO 2024-08-14 08:57:16,358 basehttp 3022 140605711689280 "GET /media/DP0413201617045423M.jpg HTTP/1.1" 200 29091
 INFO 2024-08-14 08:57:16,358 basehttp 3022 140605216781888 "GET /media/DP0325201617032536M.jpg HTTP/1.1" 200 28599
+INFO 2024-08-14 09:02:32,075 autoreload 3022 140620145663040 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:02:32,391 autoreload 4144 140038683126848 Watching for file changes with StatReloader
+INFO 2024-08-14 09:03:51,561 autoreload 4144 140038683126848 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:03:51,862 autoreload 4219 140195182971968 Watching for file changes with StatReloader
+INFO 2024-08-14 09:05:22,163 autoreload 4219 140195182971968 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:05:22,462 autoreload 4343 140284239113280 Watching for file changes with StatReloader
+INFO 2024-08-14 09:05:41,881 autoreload 4343 140284239113280 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:05:42,180 autoreload 4360 140654517972032 Watching for file changes with StatReloader
+INFO 2024-08-14 09:05:44,716 basehttp 4360 140654462105152 "GET /products/ HTTP/1.1" 200 386137
+INFO 2024-08-14 09:05:45,036 basehttp 4360 140654452663872 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2024-08-14 09:05:49,887 basehttp 4360 140654444271168 "GET /products/1/ HTTP/1.1" 200 18093
+INFO 2024-08-14 09:05:54,834 basehttp 4360 140654435878464 "POST /bag/add/1/ HTTP/1.1" 302 0
+INFO 2024-08-14 09:05:55,049 basehttp 4360 140654427485760 "GET /products/1/ HTTP/1.1" 200 18906
+INFO 2024-08-14 09:07:11,558 autoreload 4360 140654517972032 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:07:11,860 autoreload 4438 140716230179904 Watching for file changes with StatReloader
+INFO 2024-08-14 09:07:45,498 basehttp 4438 140716173948480 "POST /bag/add/1/ HTTP/1.1" 302 0
+INFO 2024-08-14 09:07:45,736 basehttp 4438 140716165555776 "GET /products/1/ HTTP/1.1" 200 18912
+INFO 2024-08-14 09:07:46,024 basehttp 4438 140716157163072 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2024-08-14 09:10:29,594 autoreload 4438 140716230179904 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:10:29,902 autoreload 4581 140495874112576 Watching for file changes with StatReloader
+INFO 2024-08-14 09:10:47,301 autoreload 4581 140495874112576 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:10:47,599 autoreload 4604 140602824588352 Watching for file changes with StatReloader
+INFO 2024-08-14 09:11:08,033 autoreload 4604 140602824588352 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:11:08,334 autoreload 4626 140491932388416 Watching for file changes with StatReloader
+INFO 2024-08-14 09:11:20,669 autoreload 4626 140491932388416 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:11:20,969 autoreload 4644 140458631650368 Watching for file changes with StatReloader
+INFO 2024-08-14 09:12:38,101 autoreload 4644 140458631650368 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:12:38,396 autoreload 4757 140643697630272 Watching for file changes with StatReloader
+INFO 2024-08-14 09:13:14,016 autoreload 4757 140643697630272 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:13:14,323 autoreload 4791 139906988203072 Watching for file changes with StatReloader
+INFO 2024-08-14 09:13:35,768 autoreload 4791 139906988203072 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:13:36,065 autoreload 4817 140105104948288 Watching for file changes with StatReloader
+INFO 2024-08-14 09:14:06,625 autoreload 4817 140105104948288 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:14:06,927 autoreload 4846 139662801312832 Watching for file changes with StatReloader
+INFO 2024-08-14 09:14:54,701 autoreload 4846 139662801312832 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:14:54,999 autoreload 4889 140113865116736 Watching for file changes with StatReloader
+INFO 2024-08-14 09:15:13,407 autoreload 4889 140113865116736 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:15:13,704 autoreload 4911 140306721328192 Watching for file changes with StatReloader
+INFO 2024-08-14 09:15:17,930 autoreload 4911 140306721328192 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:15:18,227 autoreload 4924 140615096077376 Watching for file changes with StatReloader
+INFO 2024-08-14 09:16:00,930 autoreload 4924 140615096077376 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 09:16:01,236 autoreload 4959 139678440799296 Watching for file changes with StatReloader
+INFO 2024-08-14 09:16:31,312 basehttp 4959 139678309152320 "GET /products/?q=cheese HTTP/1.1" 200 13455
+INFO 2024-08-14 09:16:31,718 basehttp 4959 139678300759616 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2024-08-14 09:16:37,382 basehttp 4959 139678292366912 "GET /products/?q= HTTP/1.1" 302 0
+INFO 2024-08-14 09:16:37,686 basehttp 4959 139678283974208 "GET /products/ HTTP/1.1" 200 386935
