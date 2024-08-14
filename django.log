@@ -2350,3 +2350,44 @@ INFO 2024-08-14 09:16:31,312 basehttp 4959 139678309152320 "GET /products/?q=che
 INFO 2024-08-14 09:16:31,718 basehttp 4959 139678300759616 "GET /static/css/base.css HTTP/1.1" 304 0
 INFO 2024-08-14 09:16:37,382 basehttp 4959 139678292366912 "GET /products/?q= HTTP/1.1" 302 0
 INFO 2024-08-14 09:16:37,686 basehttp 4959 139678283974208 "GET /products/ HTTP/1.1" 200 386935
+INFO 2024-08-14 22:08:39,012 autoreload 2633 140501179894848 Watching for file changes with StatReloader
+INFO 2024-08-14 22:08:43,661 basehttp 2633 140501056484928 "GET / HTTP/1.1" 200 10854
+INFO 2024-08-14 22:08:43,961 basehttp 2633 140501048092224 "GET /static/css/base.css HTTP/1.1" 200 3439
+INFO 2024-08-14 22:08:47,327 basehttp 2633 140501038650944 "GET /bag/ HTTP/1.1" 200 20274
+INFO 2024-08-14 22:08:47,649 basehttp 2633 140501030258240 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2024-08-14 22:08:56,172 basehttp 2633 140501021865536 "GET /products/ HTTP/1.1" 200 386176
+INFO 2024-08-14 22:08:56,476 basehttp 2633 140501012424256 "GET /static/css/base.css HTTP/1.1" 304 0
+INFO 2024-08-14 22:09:00,047 basehttp 2633 140500661171776 "GET /products/2/ HTTP/1.1" 200 18152
+ERROR 2024-08-14 22:09:02,217 log 2633 140500652779072 Internal Server Error: /bag/add/2/
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 13, in add_to_bag
+    product = get_object_or_404(product, pk=item_id)
+                                ^^^^^^^
+UnboundLocalError: cannot access local variable 'product' where it is not associated with a value
+ERROR 2024-08-14 22:09:02,218 basehttp 2633 140500652779072 "POST /bag/add/2/ HTTP/1.1" 500 76264
+INFO 2024-08-14 22:10:15,458 autoreload 2633 140501179894848 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 22:10:15,754 autoreload 2728 140636217936960 Watching for file changes with StatReloader
+ERROR 2024-08-14 22:10:22,117 log 2728 140636086859328 Internal Server Error: /bag/add/2/
+Traceback (most recent call last):
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/.pip-modules/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/boutique_ado_v1/bag/views.py", line 13, in add_to_bag
+    product = get_object_or_404(product, pk=item_id)
+                                ^^^^^^^
+UnboundLocalError: cannot access local variable 'product' where it is not associated with a value
+ERROR 2024-08-14 22:10:22,118 basehttp 2728 140636086859328 "POST /bag/add/2/ HTTP/1.1" 500 76264
+INFO 2024-08-14 22:10:51,416 autoreload 2728 140636217936960 /workspace/boutique_ado_v1/bag/views.py changed, reloading.
+INFO 2024-08-14 22:10:51,706 autoreload 2771 139905371282496 Watching for file changes with StatReloader
+INFO 2024-08-14 22:10:57,571 basehttp 2771 139905315370560 "POST /bag/add/2/ HTTP/1.1" 302 0
+INFO 2024-08-14 22:10:57,788 basehttp 2771 139905306977856 "GET /products/2/ HTTP/1.1" 200 20671
+INFO 2024-08-14 22:10:58,058 basehttp 2771 139905297536576 "GET /static/css/base.css HTTP/1.1" 304 0
